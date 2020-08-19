@@ -1,0 +1,33 @@
+{
+    "name": "aaqib/geo-pakistan",
+    "description": "Provide divisions, districts, Tehsils and cities relations database for Pakistan.",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.1",
+        "laravel/framework": ">=5.8.0"
+    },
+    "require-dev": {
+        "mockery/mockery": "~0.9",
+        "phpunit/phpunit": "~5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Aaqib\\GeoPakistan\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Aaqib Mehran",
+            "email": "mehran.aaqib@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Aaqib\\GeoPakistan\\GeoPakistanServiceProvider"
+            ]
+        }
+    }
+}
