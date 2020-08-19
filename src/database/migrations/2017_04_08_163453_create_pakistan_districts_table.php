@@ -20,8 +20,11 @@ class CreateWorldCountriesTable extends Migration {
 			$table->string('center', 190)->nullable()->comment('Center City Common Name');
 			$table->string('population', 190)->nullable()->comment('Census (2017-03-15)');
 			$table->string('area', 190)->nullable()->comment('Kilometer Square');
-			$table->string('density', 190)->nullable()->comment('Kilometer Square');
+			$table->string('density', 190)->nullable()->comment('Per Kilometer Square');
+			$table->string('latitude', 190)->nullable()->comment('Latitude');
+			$table->string('longitude', 190)->nullable()->comment('Longitude');
             $table->boolean('has_tehsil')->default(0)->comment('Has Tehsil?');
+            $table->boolean('status')->default(1)->comment('0:Inactive, 1:Active');
 			$table->unique(['division_id','name'], 'uniq_district');
 		});
 	}

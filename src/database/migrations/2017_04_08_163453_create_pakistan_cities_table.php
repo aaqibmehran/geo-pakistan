@@ -33,6 +33,6 @@ class CreateWorldCitiesTable extends Migration
      */
     public function down()
     {
-        Schema::drop('world_cities');
+        Schema::drop('pakistan_cities');
     }
 }

@@ -3,7 +3,7 @@
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 
-class AddForeignKeysToWorldContinentsLocaleTable extends Migration {
+class AddForeignKeysToPakistanContinentsLocaleTable extends Migration {
 
 	/**
 	 * Run the migrations.

@@ -13,7 +13,7 @@ class CreateWorldDivisionsLocaleTable extends Migration
      */
     public function up()
     {
-        Schema::create('world_divisions_locale', function (Blueprint $table) {
+        Schema::create('pakistan_divisions_locale', function (Blueprint $table) {
             $table->bigIncrements('id')->comment('Auto Increase ID');
             $table->bigInteger('division_id')->unsigned()->comment('Division ID');
             $table->string('name', 255)->default('')->comment('Localized Division Name');
@@ -33,6 +33,6 @@ class CreateWorldDivisionsLocaleTable extends Migration
      */
     public function down()
     {
-        Schema::drop('world_divisions_locale');
+        Schema::drop('pakistan_divisions_locale');
     }
 }

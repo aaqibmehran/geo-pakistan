@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 
 class
-AddForeignKeysToWorldDivisionsLocaleTable extends Migration {
+AddForeignKeysToPakistanDivisionsLocaleTable extends Migration {
 
 	/**
 	 * Run the migrations.
@@ -29,7 +29,7 @@ AddForeignKeysToWorldDivisionsLocaleTable extends Migration {
 	{
 		Schema::table('pakistan_divisions_locale', function(Blueprint $table)
 		{
-			$table->dropForeign('world_divisions_locale_ibfk_1');
+			$table->dropForeign('pakistan_divisions_locale');
 		});
 	}
 
