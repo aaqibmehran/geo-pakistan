@@ -25,7 +25,6 @@ class CreateWorldCountriesTable extends Migration {
 			$table->string('latitude', 190)->nullable()->comment('Latitude');
 			$table->string('longitude', 190)->nullable()->comment('Longitude');
             $table->integer('map_zoom', 9)->nullable()->default(5)->comment('Longitude');
-            $table->boolean('status')->default(1)->comment('0:Inactive, 1:Active');
 			$table->unique(['province_id', 'division_id','name'], 'uniq_district');
 		});
 	}

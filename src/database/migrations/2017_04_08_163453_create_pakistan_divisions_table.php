@@ -20,7 +20,6 @@ class CreateWorldDivisionsTable extends Migration {
 			$table->string('capital', 190)->nullable()->comment('Capital Common Name');
 			$table->string('area', 190)->nullable()->comment('Kilometer Square');
 			$table->string('population', 190)->nullable()->comment('Census (2017-03-15)');
-            $table->boolean('status')->default(1)->comment('0:Inactive, 1:Active');
 			$table->unique(['name'], 'uniq_division');
 		});
 	}
