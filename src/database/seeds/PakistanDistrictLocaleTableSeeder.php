@@ -12,11 +12,9 @@ class PakistanDistrictLocaleTableSeeder extends Seeder
      */
     public function run()
     {
+        \DB::table('pakistan_districts_locale')->truncate();
 
-
-        \DB::table('world_continents_locale')->truncate();
-
-        \DB::table('world_continents_locale')->insert(array (
+        \DB::table('pakistan_districts_locale')->insert(array (
             0 =>
             array (
                 'abbr' => '亚',

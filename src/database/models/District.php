@@ -25,6 +25,11 @@ class District extends Model
      */
     protected $appends = ['local_name', 'local_full_name', 'local_alias', 'local_abbr'];
 
+    public function province()
+    {
+        return $this->belongsTo(Province::class);
+    }
+
     public function division()
     {
         return $this->belongsTo(Division::class);
@@ -43,7 +48,7 @@ class District extends Model
     public function parent()
     {
         if ($this->division_id === null) {
-            return null;
+            return $this->province;
         }
         return $this->division;
     }

@@ -12,11 +12,9 @@ class PakistanTehsilLocaleTableSeeder extends Seeder
      */
     public function run()
     {
+        \DB::table('pakistan_countries_locale')->truncate();
 
-
-        \DB::table('world_countries_locale')->truncate();
-
-        \DB::table('world_countries_locale')->insert(array (
+        \DB::table('pakistan_countries_locale')->insert(array (
             0 =>
             array (
                 'abbr' => NULL,

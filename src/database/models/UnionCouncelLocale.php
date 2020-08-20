@@ -6,22 +6,22 @@ use Illuminate\Database\Eloquent\Model;
 /**
  * City
  */
-class CityLocale extends Model
+class UnionCouncelLocale extends Model
 {
     /**
      * The database table used by the model.
      *
      * @var string
      */
-    protected $table = 'pakistan_cities_locale';
+    protected $table = 'pakistan_union_councels_locale';
 
     /**
      * return belonged City
      *
      * @return void
      */
-    public function city()
+    public function union_councel()
     {
-        return $this->belongsTo(City::class);
+        return $this->belongsTo(UnionCouncel::class);
     }
 }

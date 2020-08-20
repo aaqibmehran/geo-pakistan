@@ -18,6 +18,8 @@ class PakistanTablesSeeder extends Seeder
             DB::statement('SET FOREIGN_KEY_CHECKS=0');
         }
 
+        $this->call(PakistanProvinceTableSeeder::class);
+        $this->call(PakistanProvinceLocaleTableSeeder::class);
         $this->call(PakistanDivisionsTableSeeder::class);
         $this->call(PakistanDivisionsLocaleTableSeeder::class);
         $this->call(PakistanDistrictTableSeeder::class);

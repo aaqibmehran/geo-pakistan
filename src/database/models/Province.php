@@ -8,7 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 /**
  * Division
  */
-class Division extends Model
+class Province extends Model
 {
     use PakistanTrait;
 
@@ -17,7 +17,7 @@ class Division extends Model
      *
      * @var string
      */
-    protected $table = 'pakistan_divisions';
+    protected $table = 'pakistan_provinces';
 
     /**
      * append names
@@ -26,9 +26,9 @@ class Division extends Model
      */
     protected $appends = ['local_name','local_full_name','local_alias', 'local_abbr'];
 
-    public function province()
+    public function divisions()
     {
-        return $this->belongsTo(Province::class);
+        return $this->hasMany(Division::class);
     }
 
     public function districts()
@@ -41,7 +41,7 @@ class Division extends Model
         return $this->hasMany(Tehsil::class);
     }
 
-    public function cities()
+    public function union_councels()
     {
         return $this->hasMany(UnionCouncel::class);
     }
@@ -53,7 +53,7 @@ class Division extends Model
 
     public function parent()
     {
-        return $this->province;
+        return null;
     }
 
     public function locales()

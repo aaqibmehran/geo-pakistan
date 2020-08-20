@@ -2,7 +2,7 @@
 
 namespace Aaqib\GeoPakistan;
 
-use Aaqib\GeoPakistan\Models\City;
+use Aaqib\GeoPakistan\Models\UnionCouncel;
 use Aaqib\GeoPakistan\Models\District;
 use Aaqib\GeoPakistan\Models\Division;
 use Aaqib\GeoPakistan\Models\Tehsil;
@@ -57,7 +57,7 @@ class Pakistan
                 ['code', $code],
             ])->first();
         }
-        return City::where([
+        return UnionCouncel::where([
                 ['division_id', $division->id],
                 ['code', $code],
             ]);

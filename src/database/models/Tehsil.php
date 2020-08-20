@@ -24,6 +24,11 @@ class Tehsil extends Model
      */
     protected $appends = ['local_name', 'local_full_name', 'local_alias', 'local_abbr'];
 
+    public function province()
+    {
+        return $this->belongsTo(Province::class);
+    }
+
     public function division()
     {
         return $this->belongsTo(Division::class);
@@ -34,9 +39,14 @@ class Tehsil extends Model
         return $this->belongsTo(District::class);
     }
 
+    public function union_councels()
+    {
+        return $this->hasMany(UnionCouncel::class);
+    }
+
     public function children()
     {
-        $this->cities;
+        $this->union_councels;
     }
 
     public function parent()

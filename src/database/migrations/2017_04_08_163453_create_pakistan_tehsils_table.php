@@ -21,7 +21,6 @@ class CreateWorldContinentsTable extends Migration {
             $table->string('population', 190)->nullable()->comment('Census (2017-03-15)');
             $table->string('area', 190)->nullable()->comment('Census (2017-03-15)');
             $table->string('density', 190)->nullable()->comment('Census (2017-03-15)');
-            $table->boolean('has_city')->default(0)->comment('Has City?');
             $table->index(['district_id','division_id','name'], 'uniq_tehsil');
 		});
 	}

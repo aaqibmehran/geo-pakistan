@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 /**
  * City.
  */
-class City extends Model
+class UnionCouncel extends Model
 {
     use PakistanTrait;
     /**
@@ -15,7 +15,7 @@ class City extends Model
      *
      * @var string
      */
-    protected $table = 'pakistan_cities';
+    protected $table = 'pakistan_union_councels';
 
     /**
      * append names.
@@ -38,6 +38,11 @@ class City extends Model
         return $this->belongsTo(Division::class);
     }
 
+    public function province()
+    {
+        return $this->belongsTo(Province::class);
+    }
+
     public function children()
     {
         return null;
@@ -53,7 +58,7 @@ class City extends Model
 
     public function locales()
     {
-        return $this->hasMany(CityLocale::class);
+        return $this->hasMany(UnionCouncelLocale::class);
     }
 
     /**
@@ -65,7 +70,7 @@ class City extends Model
      */
     public static function getByName($name)
     {
-        $localed = CityLocale::where('name', $name)->first();
+        $localed = UnionCouncelLocale::where('name', $name)->first();
         if (is_null($localed)) {
             return $localed;
         }
@@ -81,7 +86,7 @@ class City extends Model
      */
     public static function searchByName($name)
     {
-        return CityLocale::where('name', 'like', '%' . $name . '%')
+        return UnionCouncelLocale::where('name', 'like', '%' . $name . '%')
             ->get()->map(function ($item) {
                 return $item->city;
             });

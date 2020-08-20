@@ -15,6 +15,7 @@ class CreateWorldCountriesTable extends Migration {
 		Schema::create('pakistan_districts', function(Blueprint $table)
 		{
 			$table->bigIncrements('id')->comment('Auto increase ID');
+            $table->bigInteger('province_id')->unsigned()->comment('Province ID');
             $table->bigInteger('division_id')->unsigned()->comment('Division ID');
 			$table->string('name', 190)->default('')->comment('District Common Name');
 			$table->string('center', 190)->nullable()->comment('Center City Common Name');
@@ -23,9 +24,9 @@ class CreateWorldCountriesTable extends Migration {
 			$table->string('density', 190)->nullable()->comment('Per Kilometer Square');
 			$table->string('latitude', 190)->nullable()->comment('Latitude');
 			$table->string('longitude', 190)->nullable()->comment('Longitude');
-            $table->boolean('has_tehsil')->default(0)->comment('Has Tehsil?');
+            $table->integer('map_zoom', 9)->nullable()->default(5)->comment('Longitude');
             $table->boolean('status')->default(1)->comment('0:Inactive, 1:Active');
-			$table->unique(['division_id','name'], 'uniq_district');
+			$table->unique(['province_id', 'division_id','name'], 'uniq_district');
 		});
 	}
 

@@ -2,7 +2,7 @@
 
 use Illuminate\Database\Seeder;
 
-class PakistanDivisionsLocaleTableSeeder extends Seeder
+class PakistanProvinceLocaleTableSeeder extends Seeder
 {
 
     /**
@@ -12,9 +12,9 @@ class PakistanDivisionsLocaleTableSeeder extends Seeder
      */
     public function run()
     {
-        \DB::table('pakistan_divisions_locale')->truncate();
+        \DB::table('pakistan_provinces_locale')->truncate();
 
-        \DB::table('pakistan_divisions_locale')->insert(array (
+        \DB::table('pakistan_provinces_locale')->insert(array (
             0 =>
             array (
                 'abbr' => NULL,
