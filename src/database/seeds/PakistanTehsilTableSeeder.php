@@ -5,16 +5,24 @@ use Illuminate\Database\Seeder;
 class PakistanTehsilTableSeeder extends Seeder
 {
 
-    /
-      Auto generated seed file
-
-      @return void
-     /
+    /**
+     * Auto generated seed file
+     *
+     * @return void
+     **/
     public function run()
     {
         \DB::table('pakistan_tehsils')->truncate();
 
         \DB::table('pakistan_tehsils')->insert(array(
+
+            /**
+             *
+             *
+             * Balochistan Tehsils Start HERE
+             *
+             */
+
             0 =>
                 array(
                     'id' => 1,
@@ -1770,7 +1778,7 @@ class PakistanTehsilTableSeeder extends Seeder
                     'province_id' => 3,
                     'district_id' => 52,
                     'division_id' => 10,
-                    'name' => 'Dassu ',
+                    'name' => 'Dassu',
                     'population' => 222328,
                     'area' => '',
                     'density' => '',
@@ -2273,6 +2281,476 @@ class PakistanTehsilTableSeeder extends Seeder
             205 =>
                 array(
                     'id' => 206,
+                    'province_id' => 3,
+                    'district_id' => 33,
+                    'division_id' => 12,
+                    'name' => 'Barang',
+                    'population' => 76558,
+                    'area' => 267,
+                    'density' => 287.2,
+                ),
+            206 =>
+                array(
+                    'id' => 207,
+                    'province_id' => 3,
+                    'district_id' => 33,
+                    'division_id' => 12,
+                    'name' => 'Bar Chamer Kand',
+                    'population' => 2868,
+                    'area' => 16.6,
+                    'density' => 172.5,
+                ),
+            207 =>
+                array(
+                    'id' => 208,
+                    'province_id' => 3,
+                    'district_id' => 33,
+                    'division_id' => 12,
+                    'name' => 'Khar Bajaur',
+                    'population' => 247510,
+                    'area' => 276,
+                    'density' => 897.1,
+                ),
+            208 =>
+                array(
+                    'id' => 209,
+                    'province_id' => 3,
+                    'district_id' => 33,
+                    'division_id' => 12,
+                    'name' => 'Mamund',
+                    'population' => 311873,
+                    'area' => 266,
+                    'density' => 1175,
+                ),
+            209 =>
+                array(
+                    'id' => 211,
+                    'province_id' => 3,
+                    'district_id' => 33,
+                    'division_id' => 12,
+                    'name' => 'Nawagai',
+                    'population' => 79002,
+                    'area' => 127,
+                    'density' => 623,
+                ),
+            210 =>
+                array(
+                    'id' => 212,
+                    'province_id' => 3,
+                    'district_id' => 33,
+                    'division_id' => 12,
+                    'name' => 'Salarzai',
+                    'population' => 268517,
+                    'area' => 238,
+                    'density' => 1130,
+                ),
+            211 =>
+                array(
+                    'id' => 213,
+                    'province_id' => 3,
+                    'district_id' => 33,
+                    'division_id' => 12,
+                    'name' => 'Utmankhel (Qzafi)',
+                    'population' => 107356,
+                    'area' => 170,
+                    'density' => 631.1,
+                ),
+            212 =>
+                array(
+                    'id' => 214,
+                    'province_id' => 3,
+                    'district_id' => 34,
+                    'division_id' => 14,
+                    'name' => 'Bara',
+                    'population' => 444403,
+                    'area' => 1615,
+                    'density' => 275.2,
+                ),
+            213 =>
+                array(
+                    'id' => 215,
+                    'province_id' => 3,
+                    'district_id' => 34,
+                    'division_id' => 14,
+                    'name' => 'Jamrud',
+                    'population' => 228001,
+                    'area' => 369,
+                    'density' => 618.6,
+                ),
+            214 =>
+                array(
+                    'id' => 216,
+                    'province_id' => 3,
+                    'district_id' => 34,
+                    'division_id' => 14,
+                    'name' => 'Landi Kotal',
+                    'population' => 274409,
+                    'area' => 359,
+                    'density' => 361.6,
+                ),
+            215 =>
+                array(
+                    'id' => 217,
+                    'province_id' => 3,
+                    'district_id' => 34,
+                    'division_id' => 14,
+                    'name' => 'Mula Ghori',
+                    'population' => 40160,
+                    'area' => '',
+                    'density' => '',
+                ),
+            216 =>
+                array(
+                    'id' => 218,
+                    'province_id' => 3,
+                    'district_id' => 35,
+                    'division_id' => 11,
+                    'name' => 'Central Kurram Frontier Region',
+                    'population' => 229356,
+                    'area' => 1471,
+                    'density' => 155.9,
+                ),
+            217 =>
+                array(
+                    'id' => 219,
+                    'province_id' => 3,
+                    'district_id' => 35,
+                    'division_id' => 11,
+                    'name' => 'Lower Kurram',
+                    'population' => 136719,
+                    'area' => 941,
+                    'density' => 145.3,
+                ),
+            218 =>
+                array(
+                    'id' => 220,
+                    'province_id' => 3,
+                    'district_id' => 35,
+                    'division_id' => 11,
+                    'name' => 'Upper Kurram',
+                    'population' => 253478,
+                    'area' => 977,
+                    'density' => 259.4,
+                ),
+            219 =>
+                array(
+                    'id' => 221,
+                    'province_id' => 3,
+                    'district_id' => 36,
+                    'division_id' => 14,
+                    'name' => 'Halimzai',
+                    'population' => 78749,
+                    'area' => 211,
+                    'density' => 372.5,
+                ),
+            220 =>
+                array(
+                    'id' => 222,
+                    'province_id' => 3,
+                    'district_id' => 36,
+                    'division_id' => 14,
+                    'name' => 'Pindiali',
+                    'population' => 88363,
+                    'area' => 454,
+                    'density' => 194.7,
+                ),
+            221 =>
+                array(
+                    'id' => 223,
+                    'province_id' => 3,
+                    'district_id' => 36,
+                    'division_id' => 14,
+                    'name' => 'Pringhar',
+                    'population' => 35290,
+                    'area' => 257,
+                    'density' => 137.2,
+                ),
+            222 =>
+                array(
+                    'id' => 224,
+                    'province_id' => 3,
+                    'district_id' => 36,
+                    'division_id' => 14,
+                    'name' => 'Safi',
+                    'population' => 99114,
+                    'area' => 322,
+                    'density' => 307.6,
+                ),
+            223 =>
+                array(
+                    'id' => 225,
+                    'province_id' => 3,
+                    'district_id' => 36,
+                    'division_id' => 14,
+                    'name' => 'Upper Mohmand',
+                    'population' => 51068,
+                    'area' => 513,
+                    'density' => 99.63,
+                ),
+            224 =>
+                array(
+                    'id' => 226,
+                    'province_id' => 3,
+                    'district_id' => 36,
+                    'division_id' => 14,
+                    'name' => 'Utman Khel (Ambar)',
+                    'population' => 62109,
+                    'area' => 233,
+                    'density' => 266.8,
+                ),
+            225 =>
+                array(
+                    'id' => 227,
+                    'province_id' => 3,
+                    'district_id' => 36,
+                    'division_id' => 14,
+                    'name' => 'Yake Ghund',
+                    'population' => 52291,
+                    'area' => 268,
+                    'density' => 195.5,
+                ),
+            226 =>
+                array(
+                    'id' => 228,
+                    'province_id' => 3,
+                    'district_id' => 37,
+                    'division_id' => 8,
+                    'name' => 'Datta Khel',
+                    'population' => 75116,
+                    'area' => 1864,
+                    'density' => 40.30,
+                ),
+            227 =>
+                array(
+                    'id' => 229,
+                    'province_id' => 3,
+                    'district_id' => 37,
+                    'division_id' => 8,
+                    'name' => 'Dossali',
+                    'population' => 39821,
+                    'area' => 256,
+                    'density' => 155.4,
+                ),
+            228 =>
+                array(
+                    'id' => 230,
+                    'province_id' => 3,
+                    'district_id' => 37,
+                    'division_id' => 8,
+                    'name' => 'Garyum',
+                    'population' => 11780,
+                    'area' => 335,
+                    'density' => 35.21,
+                ),
+            229 =>
+                array(
+                    'id' => 231,
+                    'province_id' => 3,
+                    'district_id' => 37,
+                    'division_id' => 8,
+                    'name' => 'Ghulam Khan',
+                    'population' => 27171,
+                    'area' => 198,
+                    'density' => 137.5,
+                ),
+            230 =>
+                array(
+                    'id' => 232,
+                    'province_id' => 3,
+                    'district_id' => 37,
+                    'division_id' => 8,
+                    'name' => 'Mir Ali',
+                    'population' => 185525,
+                    'area' => 645,
+                    'density' => 287.6,
+                ),
+            231 =>
+                array(
+                    'id' => 233,
+                    'province_id' => 3,
+                    'district_id' => 37,
+                    'division_id' => 8,
+                    'name' => 'Miran Shah',
+                    'population' => 100680,
+                    'area' => 413,
+                    'density' => 243.7,
+                ),
+            232 =>
+                array(
+                    'id' => 234,
+                    'province_id' => 3,
+                    'district_id' => 37,
+                    'division_id' => 8,
+                    'name' => 'Razmak',
+                    'population' => 17629,
+                    'area' => 198,
+                    'density' => 89.08,
+                ),
+            233 =>
+                array(
+                    'id' => 235,
+                    'province_id' => 3,
+                    'district_id' => 37,
+                    'division_id' => 8,
+                    'name' => 'Shewa',
+                    'population' => 39349,
+                    'area' => 407,
+                    'density' => 96.78,
+                ),
+            234 =>
+                array(
+                    'id' => 236,
+                    'province_id' => 3,
+                    'district_id' => 37,
+                    'division_id' => 8,
+                    'name' => 'Spinwam',
+                    'population' => 46183,
+                    'area' => 579,
+                    'density' => 79.82,
+                ),
+            235 =>
+                array(
+                    'id' => 237,
+                    'province_id' => 3,
+                    'district_id' => 38,
+                    'division_id' => 11,
+                    'name' => 'Central',
+                    'population' => 59122,
+                    'area' => 357,
+                    'density' => 165.7,
+                ),
+            236 =>
+                array(
+                    'id' => 238,
+                    'province_id' => 3,
+                    'district_id' => 38,
+                    'division_id' => 11,
+                    'name' => 'Ismailzai',
+                    'population' => 23965,
+                    'area' => 238,
+                    'density' => 100.7,
+                ),
+            237 =>
+                array(
+                    'id' => 239,
+                    'province_id' => 3,
+                    'district_id' => 38,
+                    'division_id' => 11,
+                    'name' => 'Lower',
+                    'population' => 107397,
+                    'area' => 520,
+                    'density' => 206.7,
+                ),
+            238 =>
+                array(
+                    'id' => 240,
+                    'province_id' => 3,
+                    'district_id' => 38,
+                    'division_id' => 11,
+                    'name' => 'Upper',
+                    'population' => 63872,
+                    'area' => 261,
+                    'density' => 244.5,
+                ),
+            239 =>
+                array(
+                    'id' => 241,
+                    'province_id' => 3,
+                    'district_id' => 39,
+                    'division_id' => 9,
+                    'name' => 'Birmal',
+                    'population' => 10304,
+                    'area' => 870,
+                    'density' => 119.8,
+                ),
+            240 =>
+                array(
+                    'id' => 242,
+                    'province_id' => 3,
+                    'district_id' => 39,
+                    'division_id' => 9,
+                    'name' => 'Ladha',
+                    'population' => 109710,
+                    'area' => 426,
+                    'density' => 257.4,
+                ),
+            241 =>
+                array(
+                    'id' => 243,
+                    'province_id' => 3,
+                    'district_id' => 39,
+                    'division_id' => 9,
+                    'name' => 'Makin (Charlai)',
+                    'population' => 58700,
+                    'area' => 369,
+                    'density' => 159.1,
+                ),
+            242 =>
+                array(
+                    'id' => 244,
+                    'province_id' => 3,
+                    'district_id' => 39,
+                    'division_id' => 9,
+                    'name' => 'Sararogha',
+                    'population' => 98389,
+                    'area' => 762,
+                    'density' => 129.1,
+                ),
+            243 =>
+                array(
+                    'id' => 245,
+                    'province_id' => 3,
+                    'district_id' => 39,
+                    'division_id' => 9,
+                    'name' => 'Sarwekai',
+                    'population' => 54278,
+                    'area' => 360,
+                    'density' => 151.0,
+                ),
+            244 =>
+                array(
+                    'id' => 246,
+                    'province_id' => 3,
+                    'district_id' => 39,
+                    'division_id' => 9,
+                    'name' => 'Tiarza',
+                    'population' => 45210,
+                    'area' => 685,
+                    'density' => 66.05,
+                ),
+            245 =>
+                array(
+                    'id' => 247,
+                    'province_id' => 3,
+                    'district_id' => 39,
+                    'division_id' => 9,
+                    'name' => 'Toi Khullah',
+                    'population' => 50593,
+                    'area' => 523,
+                    'density' => 96.66,
+                ),
+            246 =>
+                array(
+                    'id' => 248,
+                    'province_id' => 3,
+                    'district_id' => 39,
+                    'division_id' => 9,
+                    'name' => 'Wana',
+                    'population' => 152881,
+                    'area' => 2236,
+                    'density' => 68.37,
+                ),
+
+            /**
+             *
+             *
+             * Punjab Tehsils Start HERE
+             *
+             *
+             */
+            247 =>
+                array(
+                    'id' => 249,
                     'province_id' => 4,
                     'district_id' => 66,
                     'division_id' => 21,
@@ -2281,9 +2759,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            206 =>
+            248 =>
                 array(
-                    'id' => 207,
+                    'id' => 250,
                     'province_id' => 4,
                     'district_id' => 66,
                     'division_id' => 21,
@@ -2292,9 +2770,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            207 =>
+            249 =>
                 array(
-                    'id' => 208,
+                    'id' => 251,
                     'province_id' => 4,
                     'district_id' => 66,
                     'division_id' => 21,
@@ -2303,9 +2781,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            208 =>
+            250 =>
                 array(
-                    'id' => 209,
+                    'id' => 252,
                     'province_id' => 4,
                     'district_id' => 66,
                     'division_id' => 21,
@@ -2314,9 +2792,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            209 =>
+            251 =>
                 array(
-                    'id' => 210,
+                    'id' => 253,
                     'province_id' => 4,
                     'district_id' => 66,
                     'division_id' => 21,
@@ -2325,20 +2803,20 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            210 =>
+            252 =>
                 array(
-                    'id' => 211,
+                    'id' => 254,
                     'province_id' => 4,
                     'district_id' => 66,
                     'division_id' => 21,
                     'name' => 'Hazro',
-                    'population' => 339,238,
+                    'population' => 339238,
                     'area' => '',
                     'density' => '',
                 ),
-            211 =>
+            253 =>
                 array(
-                    'id' => 212,
+                    'id' => 255,
                     'province_id' => 4,
                     'district_id' => 95,
                     'division_id' => 21,
@@ -2347,9 +2825,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            212 =>
+            254 =>
                 array(
-                    'id' => 213,
+                    'id' => 256,
                     'province_id' => 4,
                     'district_id' => 95,
                     'division_id' => 21,
@@ -2358,9 +2836,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            213 =>
+            255 =>
                 array(
-                    'id' => 214,
+                    'id' => 257,
                     'province_id' => 4,
                     'district_id' => 95,
                     'division_id' => 21,
@@ -2369,9 +2847,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            214 =>
+            256 =>
                 array(
-                    'id' => 215,
+                    'id' => 258,
                     'province_id' => 4,
                     'district_id' => 95,
                     'division_id' => 21,
@@ -2380,9 +2858,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            215 =>
+            257 =>
                 array(
-                    'id' => 216,
+                    'id' => 259,
                     'province_id' => 4,
                     'district_id' => 95,
                     'division_id' => 21,
@@ -2391,9 +2869,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            216 =>
+            258 =>
                 array(
-                    'id' => 217,
+                    'id' => 260,
                     'province_id' => 4,
                     'district_id' => 95,
                     'division_id' => 21,
@@ -2402,9 +2880,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            217 =>
+            259 =>
                 array(
-                    'id' => 218,
+                    'id' => 261,
                     'province_id' => 4,
                     'district_id' => 95,
                     'division_id' => 21,
@@ -2413,9 +2891,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            218 =>
+            260 =>
                 array(
-                    'id' => 219,
+                    'id' => 262,
                     'province_id' => 4,
                     'district_id' => 78,
                     'division_id' => 21,
@@ -2424,9 +2902,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            219 =>
+            261 =>
                 array(
-                    'id' => 220,
+                    'id' => 263,
                     'province_id' => 4,
                     'district_id' => 78,
                     'division_id' => 21,
@@ -2435,9 +2913,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            220 =>
+            262 =>
                 array(
-                    'id' => 221,
+                    'id' => 264,
                     'province_id' => 4,
                     'district_id' => 78,
                     'division_id' => 21,
@@ -2446,9 +2924,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            221 =>
+            263 =>
                 array(
-                    'id' => 222,
+                    'id' => 265,
                     'province_id' => 4,
                     'district_id' => 78,
                     'division_id' => 21,
@@ -2457,9 +2935,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            222 =>
+            264 =>
                 array(
-                    'id' => 223,
+                    'id' => 266,
                     'province_id' => 4,
                     'district_id' => 70,
                     'division_id' => 21,
@@ -2468,9 +2946,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            223 =>
+            265 =>
                 array(
-                    'id' => 224,
+                    'id' => 267,
                     'province_id' => 4,
                     'district_id' => 70,
                     'division_id' => 21,
@@ -2479,9 +2957,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            224 =>
+            266 =>
                 array(
-                    'id' => 225,
+                    'id' => 268,
                     'province_id' => 4,
                     'district_id' => 70,
                     'division_id' => 21,
@@ -2490,9 +2968,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            225 =>
+            267 =>
                 array(
-                    'id' => 226,
+                    'id' => 269,
                     'province_id' => 4,
                     'district_id' => 70,
                     'division_id' => 21,
@@ -2501,9 +2979,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            226 =>
+            268 =>
                 array(
-                    'id' => 227,
+                    'id' => 270,
                     'province_id' => 4,
                     'district_id' => 70,
                     'division_id' => 21,
@@ -2512,9 +2990,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            227 =>
+            269 =>
                 array(
-                    'id' => 228,
+                    'id' => 271,
                     'province_id' => 4,
                     'district_id' => 97,
                     'division_id' => 23,
@@ -2523,9 +3001,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            228 =>
+            270 =>
                 array(
-                    'id' => 229,
+                    'id' => 272,
                     'province_id' => 4,
                     'district_id' => 97,
                     'division_id' => 23,
@@ -2534,9 +3012,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            229 =>
+            271 =>
                 array(
-                    'id' => 230,
+                    'id' => 273,
                     'province_id' => 4,
                     'district_id' => 97,
                     'division_id' => 23,
@@ -2545,9 +3023,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            230 =>
+            272 =>
                 array(
-                    'id' => 231,
+                    'id' => 274,
                     'province_id' => 4,
                     'district_id' => 97,
                     'division_id' => 23,
@@ -2556,9 +3034,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            231 =>
+            273 =>
                 array(
-                    'id' => 232,
+                    'id' => 275,
                     'province_id' => 4,
                     'district_id' => 97,
                     'division_id' => 23,
@@ -2567,9 +3045,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            232 =>
+            274 =>
                 array(
-                    'id' => 233,
+                    'id' => 276,
                     'province_id' => 4,
                     'district_id' => 97,
                     'division_id' => 23,
@@ -2578,9 +3056,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            233 =>
+            275 =>
                 array(
-                    'id' => 234,
+                    'id' => 277,
                     'province_id' => 4,
                     'district_id' => 97,
                     'division_id' => 23,
@@ -2589,9 +3067,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            234 =>
+            276 =>
                 array(
-                    'id' => 235,
+                    'id' => 278,
                     'province_id' => 4,
                     'district_id' => 69,
                     'division_id' => 23,
@@ -2600,9 +3078,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            235 =>
+            277 =>
                 array(
-                    'id' => 236,
+                    'id' => 279,
                     'province_id' => 4,
                     'district_id' => 69,
                     'division_id' => 23,
@@ -2611,9 +3089,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            236 =>
+            278 =>
                 array(
-                    'id' => 237,
+                    'id' => 280,
                     'province_id' => 4,
                     'district_id' => 69,
                     'division_id' => 23,
@@ -2622,9 +3100,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            237 =>
+            279 =>
                 array(
-                    'id' => 238,
+                    'id' => 281,
                     'province_id' => 4,
                     'district_id' => 69,
                     'division_id' => 23,
@@ -2633,9 +3111,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            238 =>
+            280 =>
                 array(
-                    'id' => 239,
+                    'id' => 282,
                     'province_id' => 4,
                     'district_id' => 81,
                     'division_id' => 23,
@@ -2644,9 +3122,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            239 =>
+            281 =>
                 array(
-                    'id' => 240,
+                    'id' => 283,
                     'province_id' => 4,
                     'district_id' => 81,
                     'division_id' => 23,
@@ -2655,9 +3133,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            240 =>
+            282 =>
                 array(
-                    'id' => 241,
+                    'id' => 284,
                     'province_id' => 4,
                     'district_id' => 81,
                     'division_id' => 23,
@@ -2666,9 +3144,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            241 =>
+            283 =>
                 array(
-                    'id' => 242,
+                    'id' => 285,
                     'province_id' => 4,
                     'district_id' => 81,
                     'division_id' => 23,
@@ -2677,9 +3155,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            242 =>
+            284 =>
                 array(
-                    'id' => 243,
+                    'id' => 286,
                     'province_id' => 4,
                     'district_id' => 86,
                     'division_id' => 23,
@@ -2688,9 +3166,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            243 =>
+            285 =>
                 array(
-                    'id' => 244,
+                    'id' => 287,
                     'province_id' => 4,
                     'district_id' => 86,
                     'division_id' => 23,
@@ -2699,9 +3177,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            244 =>
+            286 =>
                 array(
-                    'id' => 245,
+                    'id' => 288,
                     'province_id' => 4,
                     'district_id' => 86,
                     'division_id' => 23,
@@ -2710,9 +3188,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            245 =>
+            287 =>
                 array(
-                    'id' => 246,
+                    'id' => 289,
                     'province_id' => 4,
                     'district_id' => 73,
                     'division_id' => 17,
@@ -2721,9 +3199,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            246 =>
+            288 =>
                 array(
-                    'id' => 247,
+                    'id' => 290,
                     'province_id' => 4,
                     'district_id' => 73,
                     'division_id' => 17,
@@ -2732,9 +3210,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            247 =>
+            289 =>
                 array(
-                    'id' => 248,
+                    'id' => 291,
                     'province_id' => 4,
                     'district_id' => 73,
                     'division_id' => 17,
@@ -2743,9 +3221,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            248 =>
+            290 =>
                 array(
-                    'id' => 249,
+                    'id' => 292,
                     'province_id' => 4,
                     'district_id' => 73,
                     'division_id' => 17,
@@ -2754,9 +3232,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            249 =>
+            291 =>
                 array(
-                    'id' => 250,
+                    'id' => 293,
                     'province_id' => 4,
                     'district_id' => 73,
                     'division_id' => 17,
@@ -2765,9 +3243,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            250 =>
+            292 =>
                 array(
-                    'id' => 251,
+                    'id' => 294,
                     'province_id' => 4,
                     'district_id' => 73,
                     'division_id' => 17,
@@ -2776,9 +3254,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            251 =>
+            293 =>
                 array(
-                    'id' => 252,
+                    'id' => 295,
                     'province_id' => 4,
                     'district_id' => 77,
                     'division_id' => 17,
@@ -2787,9 +3265,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            252 =>
+            294 =>
                 array(
-                    'id' => 253,
+                    'id' => 296,
                     'province_id' => 4,
                     'district_id' => 77,
                     'division_id' => 17,
@@ -2798,9 +3276,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            253 =>
+            295 =>
                 array(
-                    'id' => 254,
+                    'id' => 297,
                     'province_id' => 4,
                     'district_id' => 77,
                     'division_id' => 17,
@@ -2809,9 +3287,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            254 =>
+            296 =>
                 array(
-                    'id' => 255,
+                    'id' => 298,
                     'province_id' => 4,
                     'district_id' => 77,
                     'division_id' => 17,
@@ -2820,9 +3298,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            255 =>
+            297 =>
                 array(
-                    'id' => 256,
+                    'id' => 299,
                     'province_id' => 4,
                     'district_id' => 71,
                     'division_id' => 17,
@@ -2831,9 +3309,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            256 =>
+            298 =>
                 array(
-                    'id' => 257,
+                    'id' => 300,
                     'province_id' => 4,
                     'district_id' => 71,
                     'division_id' => 17,
@@ -2842,9 +3320,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            257 =>
+            299 =>
                 array(
-                    'id' => 258,
+                    'id' => 301,
                     'province_id' => 4,
                     'district_id' => 71,
                     'division_id' => 17,
@@ -2853,9 +3331,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            258 =>
+            300 =>
                 array(
-                    'id' => 259,
+                    'id' => 302,
                     'province_id' => 4,
                     'district_id' => 100,
                     'division_id' => 17,
@@ -2864,9 +3342,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            259 =>
+            301 =>
                 array(
-                    'id' => 260,
+                    'id' => 303,
                     'province_id' => 4,
                     'district_id' => 100,
                     'division_id' => 17,
@@ -2875,9 +3353,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            260 =>
+            302 =>
                 array(
-                    'id' => 261,
+                    'id' => 304,
                     'province_id' => 4,
                     'district_id' => 100,
                     'division_id' => 17,
@@ -2886,9 +3364,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            261 =>
+            303 =>
                 array(
-                    'id' => 262,
+                    'id' => 305,
                     'province_id' => 4,
                     'district_id' => 100,
                     'division_id' => 17,
@@ -2897,9 +3375,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            262 =>
+            304 =>
                 array(
-                    'id' => 263,
+                    'id' => 306,
                     'province_id' => 4,
                     'district_id' => 74,
                     'division_id' => 18,
@@ -2908,9 +3386,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            263 =>
+            305 =>
                 array(
-                    'id' => 264,
+                    'id' => 307,
                     'province_id' => 4,
                     'district_id' => 74,
                     'division_id' => 18,
@@ -2919,9 +3397,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            264 =>
+            306 =>
                 array(
-                    'id' => 265,
+                    'id' => 308,
                     'province_id' => 4,
                     'district_id' => 74,
                     'division_id' => 18,
@@ -2930,9 +3408,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            265 =>
+            307 =>
                 array(
-                    'id' => 266,
+                    'id' => 309,
                     'province_id' => 4,
                     'district_id' => 74,
                     'division_id' => 18,
@@ -2941,9 +3419,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            266 =>
+            308 =>
                 array(
-                    'id' => 267,
+                    'id' => 310,
                     'province_id' => 4,
                     'district_id' => 74,
                     'division_id' => 18,
@@ -2952,9 +3430,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            267 =>
+            309 =>
                 array(
-                    'id' => 268,
+                    'id' => 311,
                     'province_id' => 4,
                     'district_id' => 76,
                     'division_id' => 18,
@@ -2963,9 +3441,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            268 =>
+            310 =>
                 array(
-                    'id' => 269,
+                    'id' => 312,
                     'province_id' => 4,
                     'district_id' => 76,
                     'division_id' => 18,
@@ -2974,9 +3452,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            269 =>
+            311 =>
                 array(
-                    'id' => 270,
+                    'id' => 313,
                     'province_id' => 4,
                     'district_id' => 75,
                     'division_id' => 18,
@@ -2985,9 +3463,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            270 =>
+            312 =>
                 array(
-                    'id' => 271,
+                    'id' => 314,
                     'province_id' => 4,
                     'district_id' => 75,
                     'division_id' => 18,
@@ -2996,9 +3474,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            271 =>
+            313 =>
                 array(
-                    'id' => 272,
+                    'id' => 315,
                     'province_id' => 4,
                     'district_id' => 75,
                     'division_id' => 18,
@@ -3007,9 +3485,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            272 =>
+            314 =>
                 array(
-                    'id' => 273,
+                    'id' => 316,
                     'province_id' => 4,
                     'district_id' => 85,
                     'division_id' => 18,
@@ -3018,9 +3496,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            273 =>
+            315 =>
                 array(
-                    'id' => 274,
+                    'id' => 317,
                     'province_id' => 4,
                     'district_id' => 85,
                     'division_id' => 18,
@@ -3029,9 +3507,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            274 =>
+            316 =>
                 array(
-                    'id' => 275,
+                    'id' => 318,
                     'province_id' => 4,
                     'district_id' => 85,
                     'division_id' => 18,
@@ -3040,9 +3518,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            275 =>
+            317 =>
                 array(
-                    'id' => 276,
+                    'id' => 319,
                     'province_id' => 4,
                     'district_id' => 99,
                     'division_id' => 18,
@@ -3051,9 +3529,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            276 =>
+            318 =>
                 array(
-                    'id' => 277,
+                    'id' => 320,
                     'province_id' => 4,
                     'district_id' => 99,
                     'division_id' => 18,
@@ -3062,9 +3540,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            277 =>
+            319 =>
                 array(
-                    'id' => 278,
+                    'id' => 321,
                     'province_id' => 4,
                     'district_id' => 99,
                     'division_id' => 18,
@@ -3073,9 +3551,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            278 =>
+            320 =>
                 array(
-                    'id' => 279,
+                    'id' => 322,
                     'province_id' => 4,
                     'district_id' => 99,
                     'division_id' => 18,
@@ -3084,9 +3562,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            279 =>
+            321 =>
                 array(
-                    'id' => 280,
+                    'id' => 323,
                     'province_id' => 4,
                     'district_id' => 90,
                     'division_id' => 18,
@@ -3095,9 +3573,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            280 =>
+            322 =>
                 array(
-                    'id' => 281,
+                    'id' => 324,
                     'province_id' => 4,
                     'district_id' => 90,
                     'division_id' => 18,
@@ -3106,9 +3584,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            281 =>
+            323 =>
                 array(
-                    'id' => 282,
+                    'id' => 325,
                     'province_id' => 4,
                     'district_id' => 90,
                     'division_id' => 18,
@@ -3117,9 +3595,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            282 =>
+            324 =>
                 array(
-                    'id' => 283,
+                    'id' => 326,
                     'province_id' => 4,
                     'district_id' => 82,
                     'division_id' => 19,
@@ -3128,9 +3606,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            283 =>
+            325 =>
                 array(
-                    'id' => 284,
+                    'id' => 327,
                     'province_id' => 4,
                     'district_id' => 82,
                     'division_id' => 19,
@@ -3139,9 +3617,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            284 =>
+            326 =>
                 array(
-                    'id' => 285,
+                    'id' => 328,
                     'province_id' => 4,
                     'district_id' => 82,
                     'division_id' => 19,
@@ -3150,9 +3628,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            285 =>
+            327 =>
                 array(
-                    'id' => 286,
+                    'id' => 329,
                     'province_id' => 4,
                     'district_id' => 82,
                     'division_id' => 19,
@@ -3161,9 +3639,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            286 =>
+            328 =>
                 array(
-                    'id' => 287,
+                    'id' => 330,
                     'province_id' => 4,
                     'district_id' => 82,
                     'division_id' => 19,
@@ -3172,9 +3650,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            287 =>
+            329 =>
                 array(
-                    'id' => 288,
+                    'id' => 331,
                     'province_id' => 4,
                     'district_id' => 79,
                     'division_id' => 19,
@@ -3183,9 +3661,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            288 =>
+            330 =>
                 array(
-                    'id' => 289,
+                    'id' => 332,
                     'province_id' => 4,
                     'district_id' => 79,
                     'division_id' => 19,
@@ -3194,9 +3672,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            289 =>
+            331 =>
                 array(
-                    'id' => 290,
+                    'id' => 333,
                     'province_id' => 4,
                     'district_id' => 79,
                     'division_id' => 19,
@@ -3205,9 +3683,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            290 =>
+            332 =>
                 array(
-                    'id' => 291,
+                    'id' => 334,
                     'province_id' => 4,
                     'district_id' => 79,
                     'division_id' => 19,
@@ -3216,9 +3694,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            291 =>
+            333 =>
                 array(
-                    'id' => 292,
+                    'id' => 335,
                     'province_id' => 4,
                     'district_id' => 98,
                     'division_id' => 19,
@@ -3227,9 +3705,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            292 =>
+            334 =>
                 array(
-                    'id' => 293,
+                    'id' => 336,
                     'province_id' => 4,
                     'district_id' => 98,
                     'division_id' => 19,
@@ -3238,9 +3716,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            293 =>
+            335 =>
                 array(
-                    'id' => 294,
+                    'id' => 337,
                     'province_id' => 4,
                     'district_id' => 98,
                     'division_id' => 19,
@@ -3249,9 +3727,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            294 =>
+            336 =>
                 array(
-                    'id' => 295,
+                    'id' => 338,
                     'province_id' => 4,
                     'district_id' => 98,
                     'division_id' => 19,
@@ -3260,9 +3738,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            295 =>
+            337 =>
                 array(
-                    'id' => 296,
+                    'id' => 339,
                     'province_id' => 4,
                     'district_id' => 98,
                     'division_id' => 19,
@@ -3271,9 +3749,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            296 =>
+            338 =>
                 array(
-                    'id' => 297,
+                    'id' => 340,
                     'province_id' => 4,
                     'district_id' => 89,
                     'division_id' => 19,
@@ -3282,9 +3760,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            297 =>
+            339 =>
                 array(
-                    'id' => 298,
+                    'id' => 341,
                     'province_id' => 4,
                     'district_id' => 89,
                     'division_id' => 19,
@@ -3293,9 +3771,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            298 =>
+            340 =>
                 array(
-                    'id' => 299,
+                    'id' => 342,
                     'province_id' => 4,
                     'district_id' => 89,
                     'division_id' => 19,
@@ -3304,9 +3782,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            299 =>
+            341 =>
                 array(
-                    'id' => 300,
+                    'id' => 343,
                     'province_id' => 4,
                     'district_id' => 96,
                     'division_id' => 22,
@@ -3315,9 +3793,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            300 =>
+            342 =>
                 array(
-                    'id' => 301,
+                    'id' => 344,
                     'province_id' => 4,
                     'district_id' => 96,
                     'division_id' => 22,
@@ -3326,9 +3804,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            301 =>
+            343 =>
                 array(
-                    'id' => 302,
+                    'id' => 345,
                     'province_id' => 4,
                     'district_id' => 92,
                     'division_id' => 22,
@@ -3337,9 +3815,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            302 =>
+            344 =>
                 array(
-                    'id' => 303,
+                    'id' => 346,
                     'province_id' => 4,
                     'district_id' => 92,
                     'division_id' => 22,
@@ -3348,9 +3826,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            303 =>
+            345 =>
                 array(
-                    'id' => 304,
+                    'id' => 347,
                     'province_id' => 4,
                     'district_id' => 91,
                     'division_id' => 22,
@@ -3359,20 +3837,20 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            304 =>
+            346 =>
                 array(
-                    'id' => 305,
+                    'id' => 348,
                     'province_id' => 4,
                     'district_id' => 91,
                     'division_id' => 22,
                     'name' => 'Renala Khurd',
-                    'population' => 458,572,
+                    'population' => 458572,
                     'area' => '',
                     'density' => '',
                 ),
-            305 =>
+            347 =>
                 array(
-                    'id' => 306,
+                    'id' => 349,
                     'province_id' => 4,
                     'district_id' => 91,
                     'division_id' => 22,
@@ -3381,9 +3859,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            306 =>
+            348 =>
                 array(
-                    'id' => 307,
+                    'id' => 350,
                     'province_id' => 4,
                     'district_id' => 101,
                     'division_id' => 22,
@@ -3392,9 +3870,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            307 =>
+            349 =>
                 array(
-                    'id' => 308,
+                    'id' => 351,
                     'province_id' => 4,
                     'district_id' => 101,
                     'division_id' => 22,
@@ -3403,9 +3881,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            308 =>
+            350 =>
                 array(
-                    'id' => 309,
+                    'id' => 352,
                     'province_id' => 4,
                     'district_id' => 101,
                     'division_id' => 22,
@@ -3414,9 +3892,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            309 =>
+            351 =>
                 array(
-                    'id' => 310,
+                    'id' => 353,
                     'province_id' => 4,
                     'district_id' => 87,
                     'division_id' => 22,
@@ -3425,9 +3903,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            310 =>
+            352 =>
                 array(
-                    'id' => 311,
+                    'id' => 354,
                     'province_id' => 4,
                     'district_id' => 87,
                     'division_id' => 22,
@@ -3436,9 +3914,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            311 =>
+            353 =>
                 array(
-                    'id' => 312,
+                    'id' => 355,
                     'province_id' => 4,
                     'district_id' => 87,
                     'division_id' => 22,
@@ -3447,9 +3925,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            312 =>
+            354 =>
                 array(
-                    'id' => 313,
+                    'id' => 356,
                     'province_id' => 4,
                     'district_id' => 87,
                     'division_id' => 22,
@@ -3458,9 +3936,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            313 =>
+            355 =>
                 array(
-                    'id' => 314,
+                    'id' => 357,
                     'province_id' => 4,
                     'district_id' => 84,
                     'division_id' => 22,
@@ -3469,9 +3947,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            314 =>
+            356 =>
                 array(
-                    'id' => 315,
+                    'id' => 358,
                     'province_id' => 4,
                     'district_id' => 84,
                     'division_id' => 22,
@@ -3480,9 +3958,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            315 =>
+            357 =>
                 array(
-                    'id' => 316,
+                    'id' => 359,
                     'province_id' => 4,
                     'district_id' => 84,
                     'division_id' => 22,
@@ -3491,9 +3969,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            316 =>
+            358 =>
                 array(
-                    'id' => 317,
+                    'id' => 360,
                     'province_id' => 4,
                     'district_id' => 80,
                     'division_id' => 22,
@@ -3502,9 +3980,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            317 =>
+            359 =>
                 array(
-                    'id' => 318,
+                    'id' => 361,
                     'province_id' => 4,
                     'district_id' => 80,
                     'division_id' => 22,
@@ -3513,9 +3991,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            319 =>
+            360 =>
                 array(
-                    'id' => 319,
+                    'id' => 362,
                     'province_id' => 4,
                     'district_id' => 80,
                     'division_id' => 22,
@@ -3524,9 +4002,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            320 =>
+            361 =>
                 array(
-                    'id' => 320,
+                    'id' => 363,
                     'province_id' => 4,
                     'district_id' => 80,
                     'division_id' => 22,
@@ -3535,9 +4013,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            321 =>
+            362 =>
                 array(
-                    'id' => 321,
+                    'id' => 364,
                     'province_id' => 4,
                     'district_id' => 72,
                     'division_id' => 16,
@@ -3546,9 +4024,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            322 =>
+            363 =>
                 array(
-                    'id' => 322,
+                    'id' => 365,
                     'province_id' => 4,
                     'district_id' => 72,
                     'division_id' => 16,
@@ -3557,9 +4035,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            323 =>
+            364 =>
                 array(
-                    'id' => 323,
+                    'id' => 366,
                     'province_id' => 4,
                     'district_id' => 72,
                     'division_id' => 16,
@@ -3568,9 +4046,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            324 =>
+            365 =>
                 array(
-                    'id' => 324,
+                    'id' => 367,
                     'province_id' => 4,
                     'district_id' => 72,
                     'division_id' => 16,
@@ -3579,9 +4057,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            325 =>
+            366 =>
                 array(
-                    'id' => 325,
+                    'id' => 368,
                     'province_id' => 4,
                     'district_id' => 94,
                     'division_id' => 16,
@@ -3590,9 +4068,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            326 =>
+            367 =>
                 array(
-                    'id' => 326,
+                    'id' => 369,
                     'province_id' => 4,
                     'district_id' => 94,
                     'division_id' => 16,
@@ -3601,9 +4079,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            327 =>
+            368 =>
                 array(
-                    'id' => 327,
+                    'id' => 370,
                     'province_id' => 4,
                     'district_id' => 94,
                     'division_id' => 16,
@@ -3612,9 +4090,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            328 =>
+            369 =>
                 array(
-                    'id' => 328,
+                    'id' => 371,
                     'province_id' => 4,
                     'district_id' => 94,
                     'division_id' => 16,
@@ -3623,9 +4101,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            329 =>
+            370 =>
                 array(
-                    'id' => 329,
+                    'id' => 372,
                     'province_id' => 4,
                     'district_id' => 83,
                     'division_id' => 16,
@@ -3634,9 +4112,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            330 =>
+            371 =>
                 array(
-                    'id' => 330,
+                    'id' => 373,
                     'province_id' => 4,
                     'district_id' => 83,
                     'division_id' => 16,
@@ -3645,9 +4123,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            331 =>
+            372 =>
                 array(
-                    'id' => 331,
+                    'id' => 374,
                     'province_id' => 4,
                     'district_id' => 83,
                     'division_id' => 16,
@@ -3656,9 +4134,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            332 =>
+            373 =>
                 array(
-                    'id' => 332,
+                    'id' => 375,
                     'province_id' => 4,
                     'district_id' => 88,
                     'division_id' => 16,
@@ -3667,9 +4145,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            333 =>
+            374 =>
                 array(
-                    'id' => 333,
+                    'id' => 376,
                     'province_id' => 4,
                     'district_id' => 88,
                     'division_id' => 16,
@@ -3678,9 +4156,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            334 =>
+            375 =>
                 array(
-                    'id' => 334,
+                    'id' => 377,
                     'province_id' => 4,
                     'district_id' => 88,
                     'division_id' => 16,
@@ -3689,9 +4167,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            335 =>
+            376 =>
                 array(
-                    'id' => 335,
+                    'id' => 378,
                     'province_id' => 4,
                     'district_id' => 88,
                     'division_id' => 16,
@@ -3700,9 +4178,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            336 =>
+            377 =>
                 array(
-                    'id' => 336,
+                    'id' => 379,
                     'province_id' => 4,
                     'district_id' => 68,
                     'division_id' => 15,
@@ -3711,9 +4189,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            337 =>
+            378 =>
                 array(
-                    'id' => 337,
+                    'id' => 380,
                     'province_id' => 4,
                     'district_id' => 68,
                     'division_id' => 15,
@@ -3722,9 +4200,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            338 =>
+            379 =>
                 array(
-                    'id' => 338,
+                    'id' => 381,
                     'province_id' => 4,
                     'district_id' => 68,
                     'division_id' => 15,
@@ -3733,9 +4211,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            339 =>
+            380 =>
                 array(
-                    'id' => 339,
+                    'id' => 382,
                     'province_id' => 4,
                     'district_id' => 68,
                     'division_id' => 15,
@@ -3744,9 +4222,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            340 =>
+            381 =>
                 array(
-                    'id' => 340,
+                    'id' => 383,
                     'province_id' => 4,
                     'district_id' => 68,
                     'division_id' => 15,
@@ -3755,9 +4233,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            341 =>
+            382 =>
                 array(
-                    'id' => 341,
+                    'id' => 384,
                     'province_id' => 4,
                     'district_id' => 68,
                     'division_id' => 15,
@@ -3766,9 +4244,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            342 =>
+            383 =>
                 array(
-                    'id' => 342,
+                    'id' => 385,
                     'province_id' => 4,
                     'district_id' => 67,
                     'division_id' => 15,
@@ -3777,9 +4255,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            343 =>
+            384 =>
                 array(
-                    'id' => 343,
+                    'id' => 386,
                     'province_id' => 4,
                     'district_id' => 67,
                     'division_id' => 15,
@@ -3788,9 +4266,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            344 =>
+            385 =>
                 array(
-                    'id' => 344,
+                    'id' => 387,
                     'province_id' => 4,
                     'district_id' => 67,
                     'division_id' => 15,
@@ -3799,9 +4277,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            345 =>
+            386 =>
                 array(
-                    'id' => 345,
+                    'id' => 388,
                     'province_id' => 4,
                     'district_id' => 67,
                     'division_id' => 15,
@@ -3810,9 +4288,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            346 =>
+            387 =>
                 array(
-                    'id' => 346,
+                    'id' => 389,
                     'province_id' => 4,
                     'district_id' => 67,
                     'division_id' => 15,
@@ -3821,9 +4299,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            347 =>
+            388 =>
                 array(
-                    'id' => 347,
+                    'id' => 390,
                     'province_id' => 4,
                     'district_id' => 93,
                     'division_id' => 15,
@@ -3832,9 +4310,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            348 =>
+            389 =>
                 array(
-                    'id' => 348,
+                    'id' => 391,
                     'province_id' => 4,
                     'district_id' => 93,
                     'division_id' => 15,
@@ -3843,9 +4321,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            349 =>
+            390 =>
                 array(
-                    'id' => 349,
+                    'id' => 392,
                     'province_id' => 4,
                     'district_id' => 93,
                     'division_id' => 15,
@@ -3854,9 +4332,9 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            350 =>
+            391 =>
                 array(
-                    'id' => 350,
+                    'id' => 393,
                     'province_id' => 4,
                     'district_id' => 93,
                     'division_id' => 15,
@@ -3865,588 +4343,1597 @@ class PakistanTehsilTableSeeder extends Seeder
                     'area' => '',
                     'density' => '',
                 ),
-            351 =>
-                array(
-                    'id' => 351,
-                    'province_id' => ,
-                    'district_id' => ,
-                    'division_id' => ,
-                    'name' => '',
-                    'population' => ,
-                    'area' => '',
-                    'density' => '',
-                ),
-            352 =>
-                array(
-                    'id' => 352,
-                    'province_id' => ,
-                    'district_id' => ,
-                    'division_id' => ,
-                    'name' => '',
-                    'population' => ,
-                    'area' => '',
-                    'density' => '',
-                ),
-            353 =>
-                array(
-                    'id' => 353,
-                    'province_id' => ,
-                    'district_id' => ,
-                    'division_id' => ,
-                    'name' => '',
-                    'population' => ,
-                    'area' => '',
-                    'density' => '',
-                ),
-            354 =>
-                array(
-                    'id' => 354,
-                    'province_id' => ,
-                    'district_id' => ,
-                    'division_id' => ,
-                    'name' => '',
-                    'population' => ,
-                    'area' => '',
-                    'density' => '',
-                ),
-            355 =>
-                array(
-                    'id' => ,
-                    'province_id' => ,
-                    'district_id' => ,
-                    'division_id' => ,
-                    'name' => '',
-                    'population' => ,
-                    'area' => '',
-                    'density' => '',
-                ),
-            356 =>
-                array(
-                    'id' => ,
-                    'province_id' => ,
-                    'district_id' => ,
-                    'division_id' => ,
-                    'name' => '',
-                    'population' => ,
-                    'area' => '',
-                    'density' => '',
-                ),
-            357 =>
-                array(
-                    'id' => ,
-                    'province_id' => ,
-                    'district_id' => ,
-                    'division_id' => ,
-                    'name' => '',
-                    'population' => ,
-                    'area' => '',
-                    'density' => '',
-                ),
-            358 =>
-                array(
-                    'id' => ,
-                    'province_id' => ,
-                    'district_id' => ,
-                    'division_id' => ,
-                    'name' => '',
-                    'population' => ,
-                    'area' => '',
-                    'density' => '',
-                ),
-            359 =>
-                array(
-                    'id' => ,
-                    'province_id' => ,
-                    'district_id' => ,
-                    'division_id' => ,
-                    'name' => '',
-                    'population' => ,
-                    'area' => '',
-                    'density' => '',
-                ),
-            360 =>
-                array(
-                    'id' => ,
-                    'province_id' => ,
-                    'district_id' => ,
-                    'division_id' => ,
-                    'name' => '',
-                    'population' => ,
-                    'area' => '',
-                    'density' => '',
-                ),
-            361 =>
-                array(
-                    'id' => ,
-                    'province_id' => ,
-                    'district_id' => ,
-                    'division_id' => ,
-                    'name' => '',
-                    'population' => ,
-                    'area' => '',
-                    'density' => '',
-                ),
-            362 =>
-                array(
-                    'id' => ,
-                    'province_id' => ,
-                    'district_id' => ,
-                    'division_id' => ,
-                    'name' => '',
-                    'population' => ,
-                    'area' => '',
-                    'density' => '',
-                ),
-            363 =>
-                array(
-                    'id' => ,
-                    'province_id' => ,
-                    'district_id' => ,
-                    'division_id' => ,
-                    'name' => '',
-                    'population' => ,
-                    'area' => '',
-                    'density' => '',
-                ),
-            364 =>
-                array(
-                    'id' => ,
-                    'province_id' => ,
-                    'district_id' => ,
-                    'division_id' => ,
-                    'name' => '',
-                    'population' => ,
-                    'area' => '',
-                    'density' => '',
-                ),
-            365 =>
-                array(
-                    'id' => ,
-                    'province_id' => ,
-                    'district_id' => ,
-                    'division_id' => ,
-                    'name' => '',
-                    'population' => ,
-                    'area' => '',
-                    'density' => '',
-                ),
-            366 =>
-                array(
-                    'id' => ,
-                    'province_id' => ,
-                    'district_id' => ,
-                    'division_id' => ,
-                    'name' => '',
-                    'population' => ,
-                    'area' => '',
-                    'density' => '',
-                ),
-            367 =>
-                array(
-                    'id' => ,
-                    'province_id' => ,
-                    'district_id' => ,
-                    'division_id' => ,
-                    'name' => '',
-                    'population' => ,
-                    'area' => '',
-                    'density' => '',
-                ),
-            368 =>
-                array(
-                    'id' => ,
-                    'province_id' => ,
-                    'district_id' => ,
-                    'division_id' => ,
-                    'name' => '',
-                    'population' => ,
-                    'area' => '',
-                    'density' => '',
-                ),
-            369 =>
-                array(
-                    'id' => ,
-                    'province_id' => ,
-                    'district_id' => ,
-                    'division_id' => ,
-                    'name' => '',
-                    'population' => ,
-                    'area' => '',
-                    'density' => '',
-                ),
-            370 =>
-                array(
-                    'id' => ,
-                    'province_id' => ,
-                    'district_id' => ,
-                    'division_id' => ,
-                    'name' => '',
-                    'population' => ,
-                    'area' => '',
-                    'density' => '',
-                ),
-            371 =>
-                array(
-                    'id' => ,
-                    'province_id' => ,
-                    'district_id' => ,
-                    'division_id' => ,
-                    'name' => '',
-                    'population' => ,
-                    'area' => '',
-                    'density' => '',
-                ),
-            372 =>
-                array(
-                    'id' => ,
-                    'province_id' => ,
-                    'district_id' => ,
-                    'division_id' => ,
-                    'name' => '',
-                    'population' => ,
-                    'area' => '',
-                    'density' => '',
-                ),
-            373 =>
-                array(
-                    'id' => ,
-                    'province_id' => ,
-                    'district_id' => ,
-                    'division_id' => ,
-                    'name' => '',
-                    'population' => ,
-                    'area' => '',
-                    'density' => '',
-                ),
-            374 =>
-                array(
-                    'id' => ,
-                    'province_id' => ,
-                    'district_id' => ,
-                    'division_id' => ,
-                    'name' => '',
-                    'population' => ,
-                    'area' => '',
-                    'density' => '',
-                ),
-            375 =>
-                array(
-                    'id' => ,
-                    'province_id' => ,
-                    'district_id' => ,
-                    'division_id' => ,
-                    'name' => '',
-                    'population' => ,
-                    'area' => '',
-                    'density' => '',
-                ),
-            376 =>
-                array(
-                    'id' => ,
-                    'province_id' => ,
-                    'district_id' => ,
-                    'division_id' => ,
-                    'name' => '',
-                    'population' => ,
-                    'area' => '',
-                    'density' => '',
-                ),
-            377 =>
-                array(
-                    'id' => ,
-                    'province_id' => ,
-                    'district_id' => ,
-                    'division_id' => ,
-                    'name' => '',
-                    'population' => ,
-                    'area' => '',
-                    'density' => '',
-                ),
-            378 =>
-                array(
-                    'id' => ,
-                    'province_id' => ,
-                    'district_id' => ,
-                    'division_id' => ,
-                    'name' => '',
-                    'population' => ,
-                    'area' => '',
-                    'density' => '',
-                ),
-            379 =>
-                array(
-                    'id' => ,
-                    'province_id' => ,
-                    'district_id' => ,
-                    'division_id' => ,
-                    'name' => '',
-                    'population' => ,
-                    'area' => '',
-                    'density' => '',
-                ),
-            380 =>
-                array(
-                    'id' => ,
-                    'province_id' => ,
-                    'district_id' => ,
-                    'division_id' => ,
-                    'name' => '',
-                    'population' => ,
-                    'area' => '',
-                    'density' => '',
-                ),
-            381 =>
-                array(
-                    'id' => ,
-                    'province_id' => ,
-                    'district_id' => ,
-                    'division_id' => ,
-                    'name' => '',
-                    'population' => ,
-                    'area' => '',
-                    'density' => '',
-                ),
-            382 =>
-                array(
-                    'id' => ,
-                    'province_id' => ,
-                    'district_id' => ,
-                    'division_id' => ,
-                    'name' => '',
-                    'population' => ,
-                    'area' => '',
-                    'density' => '',
-                ),
-            383 =>
-                array(
-                    'id' => ,
-                    'province_id' => ,
-                    'district_id' => ,
-                    'division_id' => ,
-                    'name' => '',
-                    'population' => ,
-                    'area' => '',
-                    'density' => '',
-                ),
-            384 =>
-                array(
-                    'id' => ,
-                    'province_id' => ,
-                    'district_id' => ,
-                    'division_id' => ,
-                    'name' => '',
-                    'population' => ,
-                    'area' => '',
-                    'density' => '',
-                ),
-            385 =>
-                array(
-                    'id' => ,
-                    'province_id' => ,
-                    'district_id' => ,
-                    'division_id' => ,
-                    'name' => '',
-                    'population' => ,
-                    'area' => '',
-                    'density' => '',
-                ),
-            386 =>
-                array(
-                    'id' => ,
-                    'province_id' => ,
-                    'district_id' => ,
-                    'division_id' => ,
-                    'name' => '',
-                    'population' => ,
-                    'area' => '',
-                    'density' => '',
-                ),
-            387 =>
-                array(
-                    'id' => ,
-                    'province_id' => ,
-                    'district_id' => ,
-                    'division_id' => ,
-                    'name' => '',
-                    'population' => ,
-                    'area' => '',
-                    'density' => '',
-                ),
-            388 =>
-                array(
-                    'id' => ,
-                    'province_id' => ,
-                    'district_id' => ,
-                    'division_id' => ,
-                    'name' => '',
-                    'population' => ,
-                    'area' => '',
-                    'density' => '',
-                ),
-            389 =>
-                array(
-                    'id' => ,
-                    'province_id' => ,
-                    'district_id' => ,
-                    'division_id' => ,
-                    'name' => '',
-                    'population' => ,
-                    'area' => '',
-                    'density' => '',
-                ),
-            390 =>
-                array(
-                    'id' => ,
-                    'province_id' => ,
-                    'district_id' => ,
-                    'division_id' => ,
-                    'name' => '',
-                    'population' => ,
-                    'area' => '',
-                    'density' => '',
-                ),
-            391 =>
-                array(
-                    'id' => ,
-                    'province_id' => ,
-                    'district_id' => ,
-                    'division_id' => ,
-                    'name' => '',
-                    'population' => ,
-                    'area' => '',
-                    'density' => '',
-                ),
+
+
+            /**
+             *
+             *
+             * Sindh Tehsils Start Here
+             *
+             */
             392 =>
                 array(
-                    'id' => ,
-                    'province_id' => ,
-                    'district_id' => ,
-                    'division_id' => ,
-                    'name' => '',
-                    'population' => ,
-                    'area' => '',
-                    'density' => '',
+                    'id' => 394,
+                    'province_id' => 5,
+                    'district_id' => 102,
+                    'division_id' => 24,
+                    'name' => 'Badin Taluka',
+                    'population' => 455295,
+                    'area' => 1797,
+                    'density' => 253.4,
                 ),
             393 =>
                 array(
-                    'id' => ,
-                    'province_id' => ,
-                    'district_id' => ,
-                    'division_id' => ,
-                    'name' => '',
-                    'population' => ,
-                    'area' => '',
-                    'density' => '',
+                    'id' => 395,
+                    'province_id' => 5,
+                    'district_id' => 102,
+                    'division_id' => 24,
+                    'name' => 'Golarchi (Shaheed Fazal Rahu) Taluka',
+                    'population' => 334697,
+                    'area' => 1754,
+                    'density' => 190.8,
                 ),
             394 =>
                 array(
-                    'id' => ,
-                    'province_id' => ,
-                    'district_id' => ,
-                    'division_id' => ,
-                    'name' => '',
-                    'population' => ,
-                    'area' => '',
-                    'density' => '',
+                    'id' => 396,
+                    'province_id' => 5,
+                    'district_id' => 102,
+                    'division_id' => 24,
+                    'name' => 'Matli Taluka',
+                    'population' => 443412,
+                    'area' => 1064,
+                    'density' => 416.7,
                 ),
             395 =>
                 array(
-                    'id' => ,
-                    'province_id' => ,
-                    'district_id' => ,
-                    'division_id' => ,
-                    'name' => '',
-                    'population' => ,
-                    'area' => '',
-                    'density' => '',
+                    'id' => 397,
+                    'province_id' => 5,
+                    'district_id' => 102,
+                    'division_id' => 24,
+                    'name' => 'Talhar Taluka',
+                    'population' => 172254,
+                    'area' => 399,
+                    'density' => 432.1,
                 ),
             396 =>
                 array(
-                    'id' => ,
-                    'province_id' => ,
-                    'district_id' => ,
-                    'division_id' => ,
-                    'name' => '',
-                    'population' => ,
-                    'area' => '',
-                    'density' => '',
+                    'id' => 398,
+                    'province_id' => 5,
+                    'district_id' => 102,
+                    'division_id' => 24,
+                    'name' => 'Tando Bago Taluka',
+                    'population' => 398858,
+                    'area' => 1456,
+                    'density' => 273.9,
                 ),
             397 =>
                 array(
-                    'id' => ,
-                    'province_id' => ,
-                    'district_id' => ,
-                    'division_id' => ,
-                    'name' => '',
-                    'population' => ,
-                    'area' => '',
-                    'density' => '',
+                    'id' => 399,
+                    'province_id' => 5,
+                    'district_id' => 103,
+                    'division_id' => 25,
+                    'name' => 'Dadu Taluka',
+                    'population' => 460481,
+                    'area' => 783,
+                    'density' => 588,
                 ),
             398 =>
                 array(
-                    'id' => ,
-                    'province_id' => ,
-                    'district_id' => ,
-                    'division_id' => ,
-                    'name' => '',
-                    'population' => ,
-                    'area' => '',
-                    'density' => '',
+                    'id' => 400,
+                    'province_id' => 5,
+                    'district_id' => 103,
+                    'division_id' => 25,
+                    'name' => 'Johi Taluka',
+                    'population' => 294848,
+                    'area' => 3616,
+                    'density' => 81.54,
                 ),
             399 =>
                 array(
-                    'id' => ,
-                    'province_id' => ,
-                    'district_id' => ,
-                    'division_id' => ,
-                    'name' => '',
-                    'population' => ,
-                    'area' => '',
-                    'density' => '',
+                    'id' => 401,
+                    'province_id' => 5,
+                    'district_id' => 103,
+                    'division_id' => 25,
+                    'name' => 'Khairpur Nathan Shah Taluka',
+                    'population' => 334258,
+                    'area' => 2617,
+                    'density' => 127.7,
                 ),
             400 =>
                 array(
-                    'id' => ,
-                    'province_id' => ,
-                    'district_id' => ,
-                    'division_id' => ,
-                    'name' => '',
-                    'population' => ,
-                    'area' => '',
-                    'density' => '',
+                    'id' => 402,
+                    'province_id' => 5,
+                    'district_id' => 103,
+                    'division_id' => 25,
+                    'name' => 'Mehar Taluka',
+                    'population' => 460679,
+                    'area' => 1019,
+                    'density' => 452.1,
                 ),
             401 =>
                 array(
-                    'id' => ,
-                    'province_id' => ,
-                    'district_id' => ,
-                    'division_id' => ,
-                    'name' => '',
-                    'population' => ,
-                    'area' => '',
-                    'density' => '',
+                    'id' => 403,
+                    'province_id' => 5,
+                    'district_id' => 107,
+                    'division_id' => 25,
+                    'name' => 'Kotri Taluka',
+                    'population' => 437561,
+                    'area' => 1276,
+                    'density' => 342.9,
                 ),
             402 =>
                 array(
-                    'id' => ,
-                    'province_id' => ,
-                    'district_id' => ,
-                    'division_id' => ,
-                    'name' => '',
-                    'population' => ,
-                    'area' => '',
-                    'density' => '',
+                    'id' => 404,
+                    'province_id' => 5,
+                    'district_id' => 107,
+                    'division_id' => 25,
+                    'name' => 'Manjhand Taluka',
+                    'population' => 140840,
+                    'area' => 2279,
+                    'density' => 61.80,
                 ),
             403 =>
                 array(
-                    'id' => ,
-                    'province_id' => ,
-                    'district_id' => ,
-                    'division_id' => ,
-                    'name' => '',
-                    'population' => ,
-                    'area' => '',
-                    'density' => '',
+                    'id' => 405,
+                    'province_id' => 5,
+                    'district_id' => 107,
+                    'division_id' => 25,
+                    'name' => 'Sehwan Taluka',
+                    'population' => 269291,
+                    'area' => 2329,
+                    'density' => 115.6,
+                ),
+            404 =>
+                array(
+                    'id' => 406,
+                    'province_id' => 5,
+                    'district_id' => 107,
+                    'division_id' => 25,
+                    'name' => 'Thano Bula Khan Taluka',
+                    'population' => 145450,
+                    'area' => 5367,
+                    'density' => 27.10,
+                ),
+            405 =>
+                array(
+                    'id' => 407,
+                    'province_id' => 5,
+                    'district_id' => 105,
+                    'division_id' => 25,
+                    'name' => 'Hyderabad Taluka',
+                    'population' => 466770,
+                    'area' => 730,
+                    'density' => 639.5,
+                ),
+            406 =>
+                array(
+                    'id' => 408,
+                    'province_id' => 5,
+                    'district_id' => 105,
+                    'division_id' => 25,
+                    'name' => 'Hyderabad City Taluka',
+                    'population' => 756906,
+                    'area' => 20.7,
+                    'density' => 36548,
+                ),
+            407 =>
+                array(
+                    'id' => 409,
+                    'province_id' => 5,
+                    'district_id' => 105,
+                    'division_id' => 25,
+                    'name' => 'Latifabad Taluka',
+                    'population' => 672504,
+                    'area' => 262,
+                    'density' => 2569,
+                ),
+            408 =>
+                array(
+                    'id' => 410,
+                    'province_id' => 5,
+                    'district_id' => 105,
+                    'division_id' => 25,
+                    'name' => 'Qasimabad Taluka',
+                    'population' => 304899,
+                    'area' => 9.22,
+                    'density' => 33069,
+                ),
+            409 =>
+                array(
+                    'id' => 411,
+                    'province_id' => 5,
+                    'district_id' => 117,
+                    'division_id' => 25,
+                    'name' => 'Hala Taluka',
+                    'population' => 262423,
+                    'area' => 421,
+                    'density' => 623.0,
+                ),
+            410 =>
+                array(
+                    'id' => 412,
+                    'province_id' => 5,
+                    'district_id' => 117,
+                    'division_id' => 25,
+                    'name' => 'Matiari Taluka',
+                    'population' => 340677,
+                    'area' => 706,
+                    'density' => 482.9,
+                ),
+            411 =>
+                array(
+                    'id' => 413,
+                    'province_id' => 5,
+                    'district_id' => 117,
+                    'division_id' => 25,
+                    'name' => 'Saeedabad Taluka',
+                    'population' => 166249,
+                    'area' => 332,
+                    'density' => 500.1,
+                ),
+            412 =>
+                array(
+                    'id' => 414,
+                    'province_id' => 5,
+                    'district_id' => 126,
+                    'division_id' => 25,
+                    'name' => 'Chamber Taluka',
+                    'population' => 209208,
+                    'area' => 504,
+                    'density' => 415,
+                ),
+            413 =>
+                array(
+                    'id' => 415,
+                    'province_id' => 5,
+                    'district_id' => 126,
+                    'division_id' => 25,
+                    'name' => 'Jhando Mari Taluka',
+                    'population' => 231683,
+                    'area' => 674,
+                    'density' => 343.6,
+                ),
+            414 =>
+                array(
+                    'id' => 416,
+                    'province_id' => 5,
+                    'district_id' => 126,
+                    'division_id' => 25,
+                    'name' => 'Tando Allahyar Taluka',
+                    'population' => 395996,
+                    'area' => 395,
+                    'density' => 1004,
+                ),
+            415 =>
+                array(
+                    'id' => 417,
+                    'province_id' => 5,
+                    'district_id' => 127,
+                    'division_id' => 25,
+                    'name' => 'Bulri Shah Karim Taluka',
+                    'population' => 236913,
+                    'area' => 907,
+                    'density' => 261.2,
+                ),
+            416 =>
+                array(
+                    'id' => 418,
+                    'province_id' => 5,
+                    'district_id' => 127,
+                    'division_id' => 25,
+                    'name' => 'Tando Ghulam Hyder Taluka',
+                    'population' => 184653,
+                    'area' => 552,
+                    'density' => 334.5,
+                ),
+            417 =>
+                array(
+                    'id' => 419,
+                    'province_id' => 5,
+                    'district_id' => 127,
+                    'division_id' => 25,
+                    'name' => 'Tando Muhammad Khan Taluka',
+                    'population' => 255662,
+                    'area' => 354,
+                    'density' => 721.6,
+                ),
+            418 =>
+                array(
+                    'id' => 420,
+                    'province_id' => 5,
+                    'district_id' => 129,
+                    'division_id' => 24,
+                    'name' => 'Ghorabari Taluka',
+                    'population' => 174088,
+                    'area' => 977,
+                    'density' => 178.2,
+                ),
+            419 =>
+                array(
+                    'id' => 421,
+                    'province_id' => 5,
+                    'district_id' => 129,
+                    'division_id' => 24,
+                    'name' => 'Keti Bunder Taluka',
+                    'population' => 58832,
+                    'area' => 811,
+                    'density' => 72.54,
+                ),
+            420 =>
+                array(
+                    'id' => 422,
+                    'province_id' => 5,
+                    'district_id' => 129,
+                    'division_id' => 24,
+                    'name' => 'Mirpur Sakro Taluka',
+                    'population' => 340834,
+                    'area' => 2193,
+                    'density' => 155.4,
+                ),
+            421 =>
+                array(
+                    'id' => 423,
+                    'province_id' => 5,
+                    'district_id' => 129,
+                    'division_id' => 24,
+                    'name' => 'Thatta Taluka',
+                    'population' => 406063,
+                    'area' => 3724,
+                    'density' => 109,
+                ),
+            422 =>
+                array(
+                    'id' => 424,
+                    'province_id' => 5,
+                    'district_id' => 124,
+                    'division_id' => 24,
+                    'name' => 'Jati Taluka',
+                    'population' => 202299,
+                    'area' => 3513,
+                    'density' => 57.59,
+                ),
+            423 =>
+                array(
+                    'id' => 423,
+                    'province_id' => 5,
+                    'district_id' => 124,
+                    'division_id' => 24,
+                    'name' => 'Kharo Chan Taluka',
+                    'population' => 10235,
+                    'area' => 642,
+                    'density' => 15.95,
+                ),
+            424 =>
+                array(
+                    'id' => 424,
+                    'province_id' => 5,
+                    'district_id' => 124,
+                    'division_id' => 24,
+                    'name' => 'Mirpur Bathoro Taluka',
+                    'population' => 210959,
+                    'area' => 725,
+                    'density' => 290.8,
+                ),
+            425 =>
+                array(
+                    'id' => 425,
+                    'province_id' => 5,
+                    'district_id' => 124,
+                    'division_id' => 24,
+                    'name' => 'Shah Bunder Taluka',
+                    'population' => 159887,
+                    'area' => 3105,
+                    'density' => 51.49,
+                ),
+            426 =>
+                array(
+                    'id' => 426,
+                    'province_id' => 5,
+                    'district_id' => 124,
+                    'division_id' => 24,
+                    'name' => 'Sujawal Taluka',
+                    'population' => 198587,
+                    'area' => 714,
+                    'density' => 278,
+                ),
+            427 =>
+                array(
+                    'id' => 427,
+                    'province_id' => 5,
+                    'district_id' => 111,
+                    'division_id' => 26,
+                    'name' => 'Baldia Sub Division',
+                    'population' => 832768,
+                    'area' => 33.8,
+                    'density' => 24624,
+                ),
+            428 =>
+                array(
+                    'id' => 428,
+                    'province_id' => 5,
+                    'district_id' => 111,
+                    'division_id' => 26,
+                    'name' => 'Harbour Sub Division',
+                    'population' => 397671,
+                    'area' => 25.5,
+                    'density' => 15607,
+                ),
+            429 =>
+                array(
+                    'id' => 429,
+                    'province_id' => 5,
+                    'district_id' => 111,
+                    'division_id' => 26,
+                    'name' => 'Mango Pir Sub Division',
+                    'population' => 713753,
+                    'area' => 149,
+                    'density' => 4794,
+                ),
+            430 =>
+                array(
+                    'id' => 430,
+                    'province_id' => 5,
+                    'district_id' => 111,
+                    'division_id' => 26,
+                    'name' => 'Manora Cantonment',
+                    'population' => 5874,
+                    'area' => 14.4,
+                    'density' => 406.8,
+                ),
+            431 =>
+                array(
+                    'id' => 431,
+                    'province_id' => 5,
+                    'district_id' => 111,
+                    'division_id' => 26,
+                    'name' => 'Mauripur Sub Division',
+                    'population' => 192794,
+                    'area' => 364,
+                    'density' => 529.9,
+                ),
+            432 =>
+                array(
+                    'id' => 432,
+                    'province_id' => 5,
+                    'district_id' => 111,
+                    'division_id' => 26,
+                    'name' => 'Mominabad Sub Division',
+                    'population' => 846531,
+                    'area' => 12.7,
+                    'density' => 66814,
+                ),
+            433 =>
+                array(
+                    'id' => 433,
+                    'province_id' => 5,
+                    'district_id' => 111,
+                    'division_id' => 26,
+                    'name' => 'Orangi Sub Division',
+                    'population' => 520609,
+                    'area' => 7.55,
+                    'density' => 68955,
+                ),
+            434 =>
+                array(
+                    'id' => 434,
+                    'province_id' => 5,
+                    'district_id' => 111,
+                    'division_id' => 26,
+                    'name' => 'Sindh Industrial Trading State (SITE) Sub Division',
+                    'population' => 404757,
+                    'area' => 23.5,
+                    'density' => 17246,
+                ),
+            435 =>
+                array(
+                    'id' => 435,
+                    'province_id' => 5,
+                    'district_id' => 110,
+                    'division_id' => 26,
+                    'name' => 'Aram Bagh Sub Division',
+                    'population' => 128374,
+                    'area' => 3.90,
+                    'density' => 32916,
+                ),
+            436 =>
+                array(
+                    'id' => 436,
+                    'province_id' => 5,
+                    'district_id' => 110,
+                    'division_id' => 26,
+                    'name' => 'Civil Line Sub Division',
+                    'population' => 224057,
+                    'area' => 18.6,
+                    'density' => 12059,
+                ),
+            437 =>
+                array(
+                    'id' => 437,
+                    'province_id' => 5,
+                    'district_id' => 110,
+                    'division_id' => 26,
+                    'name' => 'Clifton Cantonment',
+                    'population' => 305938,
+                    'area' => 43.4,
+                    'density' => 7049,
+                ),
+            438 =>
+                array(
+                    'id' => 438,
+                    'province_id' => 5,
+                    'district_id' => 110,
+                    'division_id' => 26,
+                    'name' => 'Garden Sub Division',
+                    'population' => 365323,
+                    'area' => 3.68,
+                    'density' => 99273,
+                ),
+            439 =>
+                array(
+                    'id' => 439,
+                    'province_id' => 5,
+                    'district_id' => 110,
+                    'division_id' => 26,
+                    'name' => 'Karachi Cantonment',
+                    'population' => 68877,
+                    'area' => 5,
+                    'density' => 13775,
+                ),
+            440 =>
+                array(
+                    'id' => 440,
+                    'province_id' => 5,
+                    'district_id' => 110,
+                    'division_id' => 26,
+                    'name' => 'Lyari Sub Division',
+                    'population' => 662816,
+                    'area' => 6.43,
+                    'density' => 103082,
+                ),
+            441 =>
+                array(
+                    'id' => 441,
+                    'province_id' => 5,
+                    'district_id' => 110,
+                    'division_id' => 26,
+                    'name' => 'Saddar Sub Division',
+                    'population' => 36366,
+                    'area' => 3.99,
+                    'density' => 9114,
+                ),
+            442 =>
+                array(
+                    'id' => 442,
+                    'province_id' => 5,
+                    'district_id' => 108,
+                    'division_id' => 26,
+                    'name' => 'Gulberg Sub Division',
+                    'population' => 495892,
+                    'area' => 13.7,
+                    'density' => 36223,
+                ),
+            443 =>
+                array(
+                    'id' => 443,
+                    'province_id' => 5,
+                    'district_id' => 108,
+                    'division_id' => 26,
+                    'name' => 'Liaquatabad Sub Division',
+                    'population' => 449497,
+                    'area' => 7.48,
+                    'density' => 60093,
+                ),
+            444 =>
+                array(
+                    'id' => 444,
+                    'province_id' => 5,
+                    'district_id' => 108,
+                    'division_id' => 26,
+                    'name' => 'Nazimabad Sub Division',
+                    'population' => 447435,
+                    'area' => 5.29,
+                    'density' => 84581,
+                ),
+            445 =>
+                array(
+                    'id' => 445,
+                    'province_id' => 5,
+                    'district_id' => 108,
+                    'division_id' => 26,
+                    'name' => 'New Karachi Sub Division',
+                    'population' => 871232,
+                    'area' => 19.4,
+                    'density' => 44909,
+                ),
+            446 =>
+                array(
+                    'id' => 446,
+                    'province_id' => 5,
+                    'district_id' => 108,
+                    'division_id' => 26,
+                    'name' => 'North Nazimabad Sub Division',
+                    'population' => 708583,
+                    'area' => 15.6,
+                    'density' => 45306,
+                ),
+            447 =>
+                array(
+                    'id' => 447,
+                    'province_id' => 5,
+                    'district_id' => 116,
+                    'division_id' => 26,
+                    'name' => 'Airport Sub Division',
+                    'population' => 100,743,
+                    'area' => 4.26,
+                    'density' => 23,649,
+                ),
+            448 =>
+                array(
+                    'id' => 448,
+                    'province_id' => 5,
+                    'district_id' => 116,
+                    'division_id' => 26,
+                    'name' => 'Bin Qasim Sub Division',
+                    'population' => 247141,
+                    'area' => 440,
+                    'density' => 561.3,
+                ),
+            449 =>
+                array(
+                    'id' => 449,
+                    'province_id' => 5,
+                    'district_id' => 116,
+                    'division_id' => 26,
+                    'name' => 'Gadap Sub Division',
+                    'population' => 64192,
+                    'area' => 1436,
+                    'density' => 44.70,
+                ),
+            450 =>
+                array(
+                    'id' => 450,
+                    'province_id' => 5,
+                    'district_id' => 116,
+                    'division_id' => 26,
+                    'name' => 'Ibrahim Hyderi Sub Division',
+                    'population' => 1045815,
+                    'area' => 111,
+                    'density' => 9439,
+                ),
+            451 =>
+                array(
+                    'id' => 451,
+                    'province_id' => 5,
+                    'district_id' => 116,
+                    'division_id' => 26,
+                    'name' => 'Korangi Creek Cantonment',
+                    'population' => 57745,
+                    'area' => 22.2,
+                    'density' => 2599,
+                ),
+            452 =>
+                array(
+                    'id' => 452,
+                    'province_id' => 5,
+                    'district_id' => 116,
+                    'division_id' => 26,
+                    'name' => 'Malir Cantonment',
+                    'population' => 139052,
+                    'area' => 60.6,
+                    'density' => 2294,
+                ),
+            453 =>
+                array(
+                    'id' => 453,
+                    'province_id' => 5,
+                    'district_id' => 116,
+                    'division_id' => 26,
+                    'name' => 'Murad Memon Sub Division',
+                    'population' => 324275,
+                    'area' => 197,
+                    'density' => 1,649,
+                ),
+            454 =>
+                array(
+                    'id' => 454,
+                    'province_id' => 5,
+                    'district_id' => 116,
+                    'division_id' => 26,
+                    'name' => 'Shah Mureed Sub Division',
+                    'population' => 29938,
+                    'area' => 355,
+                    'density' => 84.33,
+                ),
+            455 =>
+                array(
+                    'id' => 455,
+                    'province_id' => 5,
+                    'district_id' => 114,
+                    'division_id' => 26,
+                    'name' => 'Korangi Sub Division',
+                    'population' => 1071560,
+                    'area' => 37.5,
+                    'density' => 28,560,
+                ),
+            456 =>
+                array(
+                    'id' => 456,
+                    'province_id' => 5,
+                    'district_id' => 114,
+                    'division_id' => 26,
+                    'name' => 'Landhi Sub Division',
+                    'population' => 553665,
+                    'area' => 9.04,
+                    'density' => 61,246,
+                ),
+            457 =>
+                array(
+                    'id' => 457,
+                    'province_id' => 5,
+                    'district_id' => 114,
+                    'division_id' => 26,
+                    'name' => 'Model Colony Sub Division',
+                    'population' => 383801,
+                    'area' => 12.5,
+                    'density' => 30753,
+                ),
+            458 =>
+                array(
+                    'id' => 458,
+                    'province_id' => 5,
+                    'district_id' => 114,
+                    'division_id' => 26,
+                    'name' => 'Shah Faisal Sub Division',
+                    'population' => 447993,
+                    'area' => 44.8,
+                    'density' => 10009,
+                ),
+            459 =>
+                array(
+                    'id' => 459,
+                    'province_id' => 5,
+                    'district_id' => 109,
+                    'division_id' => 26,
+                    'name' => 'Faisal Cantonment',
+                    'population' => 296469,
+                    'area' => 42,
+                    'density' => 7057,
+                ),
+            460 =>
+                array(
+                    'id' => 460,
+                    'province_id' => 5,
+                    'district_id' => 109,
+                    'division_id' => 26,
+                    'name' => 'Ferozabad Sub Division',
+                    'population' => 762850,
+                    'area' => 17.6,
+                    'density' => 43368,
+                ),
+            461 =>
+                array(
+                    'id' => 461,
+                    'province_id' => 5,
+                    'district_id' => 109,
+                    'division_id' => 26,
+                    'name' => 'Gulshan-e-Iqbal Sub Division',
+                    'population' => 644362,
+                    'area' => 45.8,
+                    'density' => 14066,
+                ),
+            462 =>
+                array(
+                    'id' => 462,
+                    'province_id' => 5,
+                    'district_id' => 109,
+                    'division_id' => 26,
+                    'name' => 'Gulzar-e-Hijri Sub Division',
+                    'population' => 734410,
+                    'area' => 47.6,
+                    'density' => 15435,
+                ),
+            463 =>
+                array(
+                    'id' => 463,
+                    'province_id' => 5,
+                    'district_id' => 109,
+                    'division_id' => 26,
+                    'name' => 'Jamshed Quarters Sub Division',
+                    'population' => 471830,
+                    'area' => 12.2,
+                    'density' => 38834,
+                ),
+            464 =>
+                array(
+                    'id' => 464,
+                    'province_id' => 5,
+                    'district_id' => 106,
+                    'division_id' => 28,
+                    'name' => 'Garhi Khairo Taluka',
+                    'population' => 158360,
+                    'area' => 744,
+                    'density' => 212.8,
+                ),
+            465 =>
+                array(
+                    'id' => 465,
+                    'province_id' => 5,
+                    'district_id' => 106,
+                    'division_id' => 28,
+                    'name' => 'Jacobabad Taluka',
+                    'population' => 382513,
+                    'area' => 686,
+                    'density' => 557.4,
+                ),
+            466 =>
+                array(
+                    'id' => 466,
+                    'province_id' => 5,
+                    'district_id' => 106,
+                    'division_id' => 28,
+                    'name' => 'Thul Taluka',
+                    'population' => 465424,
+                    'area' => 1341,
+                    'density' => 347.1,
+                ),
+            467 =>
+                array(
+                    'id' => 467,
+                    'province_id' => 5,
+                    'district_id' => 112,
+                    'division_id' => 28,
+                    'name' => 'Kandhkot Taluka',
+                    'population' => 366484,
+                    'area' => 639,
+                    'density' => 573.8,
+                ),
+            468 =>
+                array(
+                    'id' => 468,
+                    'province_id' => 5,
+                    'district_id' => 112,
+                    'division_id' => 28,
+                    'name' => 'Kashmor Taluka',
+                    'population' => 434975,
+                    'area' => 1251,
+                    'density' => 347.7,
+                ),
+            469 =>
+                array(
+                    'id' => 469,
+                    'province_id' => 5,
+                    'district_id' => 112,
+                    'division_id' => 28,
+                    'name' => 'Tangwani Taluka',
+                    'population' => 287,710,
+                    'area' => 774,
+                    'density' => 371.6,
+                ),
+            470 =>
+                array(
+                    'id' => 470,
+                    'province_id' => 5,
+                    'district_id' => 115,
+                    'division_id' => 28,
+                    'name' => 'Bakrani Taluka',
+                    'population' => 229444,
+                    'area' => 401,
+                    'density' => 572.0,
+                ),
+            471 =>
+                array(
+                    'id' => 471,
+                    'province_id' => 5,
+                    'district_id' => 115,
+                    'division_id' => 28,
+                    'name' => 'Dokri Taluka',
+                    'population' => 225294,
+                    'area' => 416,
+                    'density' => 542.1,
+                ),
+            472 =>
+                array(
+                    'id' => 472,
+                    'province_id' => 5,
+                    'district_id' => 115,
+                    'division_id' => 28,
+                    'name' => 'Larkana Taluka',
+                    'population' => 738069,
+                    'area' => 499,
+                    'density' => 1481,
+                ),
+            473 =>
+                array(
+                    'id' => 473,
+                    'province_id' => 5,
+                    'district_id' => 115,
+                    'division_id' => 28,
+                    'name' => 'Ratodero Taluka',
+                    'population' => 331584,
+                    'area' => 591,
+                    'density' => 561.0,
+                ),
+            474 =>
+                array(
+                    'id' => 474,
+                    'province_id' => 5,
+                    'district_id' => 120,
+                    'division_id' => 28,
+                    'name' => 'Kambar Ali Khan Taluka',
+                    'population' => 395206,
+                    'area' => 2701,
+                    'density' => 146.3,
+                ),
+            475 =>
+                array(
+                    'id' => 475,
+                    'province_id' => 5,
+                    'district_id' => 120,
+                    'division_id' => 28,
+                    'name' => 'Miro Khan Taluka',
+                    'population' => 158191,
+                    'area' => 395,
+                    'density' => 400.8,
+                ),
+            476 =>
+                array(
+                    'id' => 476,
+                    'province_id' => 5,
+                    'district_id' => 120,
+                    'division_id' => 28,
+                    'name' => 'Nasirabad Taluka',
+                    'population' => 151500,
+                    'area' => 355,
+                    'density' => 426.8,
+                ),
+            477 =>
+                array(
+                    'id' => 477,
+                    'province_id' => 5,
+                    'district_id' => 120,
+                    'division_id' => 28,
+                    'name' => 'Qubo Saeed Khan Taluka',
+                    'population' => 85970,
+                    'area' => 623,
+                    'density' => 137.9,
+                ),
+            478 =>
+                array(
+                    'id' => 478,
+                    'province_id' => 5,
+                    'district_id' => 120,
+                    'division_id' => 28,
+                    'name' => 'Shahdadkot Taluka',
+                    'population' => 202745,
+                    'area' => 398,
+                    'density' => 509.3,
+                ),
+            479 =>
+                array(
+                    'id' => 479,
+                    'province_id' => 5,
+                    'district_id' => 120,
+                    'division_id' => 28,
+                    'name' => 'Sujawal Junejo Taluka',
+                    'population' => 117459,
+                    'area' => 377,
+                    'density' => 311.8,
+                ),
+            480 =>
+                array(
+                    'id' => 480,
+                    'province_id' => 5,
+                    'district_id' => 120,
+                    'division_id' => 28,
+                    'name' => 'Warah Taluka',
+                    'population' => 229971,
+                    'area' => 750,
+                    'density' => 306.5,
+                ),
+            481 =>
+                array(
+                    'id' => 481,
+                    'province_id' => 5,
+                    'district_id' => 123,
+                    'division_id' => 28,
+                    'name' => 'Garhi Yasin Taluka',
+                    'population' => 315883,
+                    'area' => 943,
+                    'density' => 335.0,
+                ),
+            482 =>
+                array(
+                    'id' => 482,
+                    'province_id' => 5,
+                    'district_id' => 123,
+                    'division_id' => 28,
+                    'name' => 'Khanpur Taluka',
+                    'population' => 276283,
+                    'area' => 685,
+                    'density' => 403.4,
+                ),
+            483 =>
+                array(
+                    'id' => 483,
+                    'province_id' => 5,
+                    'district_id' => 123,
+                    'division_id' => 28,
+                    'name' => 'Lakhi Taluka',
+                    'population' => 248143,
+                    'area' => 381,
+                    'density' => 650.6,
+                ),
+            484 =>
+                array(
+                    'id' => 484,
+                    'province_id' => 5,
+                    'district_id' => 123,
+                    'division_id' => 28,
+                    'name' => 'Shikarpur Taluka',
+                    'population' => 391,172,
+                    'area' => 568,
+                    'density' => 689.2,
+                ),
+            485 =>
+                array(
+                    'id' => 485,
+                    'province_id' => 5,
+                    'district_id' => 118,
+                    'division_id' => 29,
+                    'name' => 'Digri Taluka',
+                    'population' => 214,499,
+                    'area' => 599,
+                    'density' => 358.4,
+                ),
+            486 =>
+                array(
+                    'id' => 486,
+                    'province_id' => 5,
+                    'district_id' => 118,
+                    'division_id' => 29,
+                    'name' => 'Hussain Bux Mari Taluka',
+                    'population' => 150285,
+                    'area' => 309,
+                    'density' => 486.7,
+                ),
+            487 =>
+                array(
+                    'id' => 487,
+                    'province_id' => 5,
+                    'district_id' => 118,
+                    'division_id' => 29,
+                    'name' => 'Jhudo Taluka',
+                    'population' => 202228,
+                    'area' => 551,
+                    'density' => 366.8,
+                ),
+            488 =>
+                array(
+                    'id' => 488,
+                    'province_id' => 5,
+                    'district_id' => 118,
+                    'division_id' => 29,
+                    'name' => 'Kot Ghulam Muhammad Taluka',
+                    'population' => 273193,
+                    'area' => 785,
+                    'density' => 348.2,
+                ),
+            489 =>
+                array(
+                    'id' => 489,
+                    'province_id' => 5,
+                    'district_id' => 118,
+                    'division_id' => 29,
+                    'name' => 'Mirpur Khas Taluka',
+                    'population' => 260182,
+                    'area' => 60.8,
+                    'density' => 4,282,
+                ),
+            490 =>
+                array(
+                    'id' => 490,
+                    'province_id' => 5,
+                    'district_id' => 118,
+                    'division_id' => 29,
+                    'name' => 'Shujaabad Taluka',
+                    'population' => 169231,
+                    'area' => 437,
+                    'density' => 386.9,
+                ),
+            491 =>
+                array(
+                    'id' => 491,
+                    'province_id' => 5,
+                    'district_id' => 118,
+                    'division_id' => 29,
+                    'name' => 'Sindhri Taluka',
+                    'population' => 236258,
+                    'area' => 578,
+                    'density' => 408.8,
+                ),
+            492 =>
+                array(
+                    'id' => 492,
+                    'province_id' => 5,
+                    'district_id' => 128,
+                    'division_id' => 29,
+                    'name' => 'Chachro Taluka',
+                    'population' => 351263,
+                    'area' => 4744,
+                    'density' => 74.04,
+                ),
+            493 =>
+                array(
+                    'id' => 493,
+                    'province_id' => 5,
+                    'district_id' => 128,
+                    'division_id' => 29,
+                    'name' => 'Dahli Taluka',
+                    'population' => 308487,
+                    'area' => 1842,
+                    'density' => 167.5,
+                ),
+            494 =>
+                array(
+                    'id' => 494,
+                    'province_id' => 5,
+                    'district_id' => 128,
+                    'division_id' => 29,
+                    'name' => 'Diplo Taluka',
+                    'population' => 147978,
+                    'area' => 2673,
+                    'density' => 55.36,
+                ),
+            495 =>
+                array(
+                    'id' => 495,
+                    'province_id' => 5,
+                    'district_id' => 128,
+                    'division_id' => 29,
+                    'name' => 'Islamkot Taluka',
+                    'population' => 244662,
+                    'area' => 3781,
+                    'density' => 64.71,
+                ),
+            496 =>
+                array(
+                    'id' => 496,
+                    'province_id' => 5,
+                    'district_id' => 128,
+                    'division_id' => 29,
+                    'name' => 'Kaloi Taluka',
+                    'population' => 118030,
+                    'area' => 1318,
+                    'density' => 89.55,
+                ),
+            497 =>
+                array(
+                    'id' => 497,
+                    'province_id' => 5,
+                    'district_id' => 128,
+                    'division_id' => 29,
+                    'name' => 'Mithi Taluka',
+                    'population' => 219071,
+                    'area' => 1535,
+                    'density' => 142.7,
+                ),
+            498 =>
+                array(
+                    'id' => 498,
+                    'province_id' => 5,
+                    'district_id' => 128,
+                    'division_id' => 29,
+                    'name' => 'Nagar Parker Taluka',
+                    'population' => 260170,
+                    'area' => 3914,
+                    'density' => 66.47,
+                ),
+            499 =>
+                array(
+                    'id' => 499,
+                    'province_id' => 5,
+                    'district_id' => 130,
+                    'division_id' => 29,
+                    'name' => 'Kunri Taluka',
+                    'population' => 218493,
+                    'area' => 725,
+                    'density' => 301.5,
+                ),
+            500 =>
+                array(
+                    'id' => 500,
+                    'province_id' => 5,
+                    'district_id' => 130,
+                    'division_id' => 29,
+                    'name' => 'Pithoro Taluka',
+                    'population' => 119971,
+                    'area' => 512,
+                    'density' => 234.5,
+                ),
+            501 =>
+                array(
+                    'id' => 501,
+                    'province_id' => 5,
+                    'district_id' => 130,
+                    'division_id' => 29,
+                    'name' => 'Samaro Taluka',
+                    'population' => 170288,
+                    'area' => 609,
+                    'density' => 279.8,
+                ),
+            502 =>
+                array(
+                    'id' => 502,
+                    'province_id' => 5,
+                    'district_id' => 130,
+                    'division_id' => 29,
+                    'name' => 'Umerkot Taluka',
+                    'population' => 564,394,
+                    'area' => 3,658,
+                    'density' => 154.3,
+                ),
+            503 =>
+                array(
+                    'id' => 503,
+                    'province_id' => 5,
+                    'district_id' => 121,
+                    'division_id' => 30,
+                    'name' => 'Jam Nawaz Ali Taluka',
+                    'population' => 153342,
+                    'area' => 475,
+                    'density' => 322.8,
+                ),
+            504 =>
+                array(
+                    'id' => 504,
+                    'province_id' => 5,
+                    'district_id' => 121,
+                    'division_id' => 30,
+                    'name' => 'Khipro Taluka',
+                    'population' => 333284,
+                    'area' => 5570,
+                    'density' => 59.84,
+                ),
+            505 =>
+                array(
+                    'id' => 505,
+                    'province_id' => 5,
+                    'district_id' => 121,
+                    'division_id' => 30,
+                    'name' => 'Sanghar Taluka',
+                    'population' => 434087,
+                    'area' => 2201,
+                    'density' => 197.2,
+                ),
+            506 =>
+                array(
+                    'id' => 506,
+                    'province_id' => 5,
+                    'district_id' => 121,
+                    'division_id' => 30,
+                    'name' => 'Shahdadpur Taluka',
+                    'population' => 457551,
+                    'area' => 745,
+                    'density' => 614.2,
+                ),
+            507 =>
+                array(
+                    'id' => 507,
+                    'province_id' => 5,
+                    'district_id' => 121,
+                    'division_id' => 30,
+                    'name' => 'Sinjhoro Taluka',
+                    'population' => 320874,
+                    'area' => 853,
+                    'density' => 376.2,
+                ),
+            508 =>
+                array(
+                    'id' => 508,
+                    'province_id' => 5,
+                    'district_id' => 121,
+                    'division_id' => 30,
+                    'name' => 'Tando Adam Taluka',
+                    'population' => 357919,
+                    'area' => 416,
+                    'density' => 861.4,
+                ),
+            509 =>
+                array(
+                    'id' => 509,
+                    'province_id' => 5,
+                    'district_id' => 119,
+                    'division_id' => 30,
+                    'name' => 'Bhiria Taluka',
+                    'population' => 301044,
+                    'area' => 398,
+                    'density' => 756.2,
+                ),
+            510 =>
+                array(
+                    'id' => 510,
+                    'province_id' => 5,
+                    'district_id' => 119,
+                    'division_id' => 30,
+                    'name' => 'Kandiaro Taluka',
+                    'population' => 322439,
+                    'area' => 666,
+                    'density' => 484.5,
+                ),
+            511 =>
+                array(
+                    'id' => 511,
+                    'province_id' => 5,
+                    'district_id' => 119,
+                    'division_id' => 30,
+                    'name' => 'Mehrabpur Taluka',
+                    'population' => 247280,
+                    'area' => 484,
+                    'density' => 510.7,
+                ),
+            512 =>
+                array(
+                    'id' => 512,
+                    'province_id' => 5,
+                    'district_id' => 119,
+                    'division_id' => 30,
+                    'name' => 'Moro Taluka',
+                    'population' => 368789,
+                    'area' => 749,
+                    'density' => 492.4,
+                ),
+            513 =>
+                array(
+                    'id' => 513,
+                    'province_id' => 5,
+                    'district_id' => 119,
+                    'division_id' => 30,
+                    'name' => 'Naushahro Feroze Taluka',
+                    'population' => 372821,
+                    'area' => 731,
+                    'density' => 510.3,
+                ),
+            514 =>
+                array(
+                    'id' => 514,
+                    'province_id' => 5,
+                    'district_id' => 122,
+                    'division_id' => 30,
+                    'name' => 'Daur Taluka Taluka',
+                    'population' => 477357,
+                    'area' => 2245,
+                    'density' => 212.6,
+                ),
+            515 =>
+                array(
+                    'id' => 515,
+                    'province_id' => 5,
+                    'district_id' => 122,
+                    'division_id' => 30,
+                    'name' => 'Kazi Ahmed (Daulatpur) Taluka',
+                    'population' => 348702,
+                    'area' => 1049,
+                    'density' => 332.4,
+                ),
+            516 =>
+                array(
+                    'id' => 516,
+                    'province_id' => 5,
+                    'district_id' => 122,
+                    'division_id' => 30,
+                    'name' => 'Nawabshah Taluka',
+                    'population' => 413913,
+                    'area' => 465,
+                    'density' => 889.6,
+                ),
+            517 =>
+                array(
+                    'id' => 517,
+                    'province_id' => 5,
+                    'district_id' => 122,
+                    'division_id' => 30,
+                    'name' => 'Sakrand Taluka',
+                    'population' => 372875,
+                    'area' => 859,
+                    'density' => 434.2,
+                ),
+            518 =>
+                array(
+                    'id' => 518,
+                    'province_id' => 5,
+                    'district_id' => 104,
+                    'division_id' => 27,
+                    'name' => 'Daharki Taluka',
+                    'population' => 310079,
+                    'area' => 2811,
+                    'density' => 110.3,
+                ),
+            519 =>
+                array(
+                    'id' => 519,
+                    'province_id' => 5,
+                    'district_id' => 104,
+                    'division_id' => 27,
+                    'name' => 'Ghotki Taluka',
+                    'population' => 506919,
+                    'area' => 846,
+                    'density' => 599.3,
+                ),
+            520 =>
+                array(
+                    'id' => 520,
+                    'province_id' => 5,
+                    'district_id' => 104,
+                    'division_id' => 27,
+                    'name' => 'Khangarh Taluka',
+                    'population' => 149008,
+                    'area' => 1619,
+                    'density' => 92.04,
+                ),
+            521 =>
+                array(
+                    'id' => 521,
+                    'province_id' => 5,
+                    'district_id' => 104,
+                    'division_id' => 27,
+                    'name' => 'Mirpur Mathelo Taluka',
+                    'population' => 327944,
+                    'area' => 444,
+                    'density' => 738.4,
+                ),
+            522 =>
+                array(
+                    'id' => 522,
+                    'province_id' => 5,
+                    'district_id' => 104,
+                    'division_id' => 27,
+                    'name' => 'Ubauro Taluka',
+                    'population' => 353289,
+                    'area' => 674,
+                    'density' => 524.4,
+                ),
+            523 =>
+                array(
+                    'id' => 523,
+                    'province_id' => 5,
+                    'district_id' => 113,
+                    'division_id' => 27,
+                    'name' => 'Faiz Ganj Taluka',
+                    'population' => 224004,
+                    'area' => 994,
+                    'density' => 225.3,
+                ),
+            524 =>
+                array(
+                    'id' => 524,
+                    'province_id' => 5,
+                    'district_id' => 113,
+                    'division_id' => 27,
+                    'name' => 'Gambat Taluka',
+                    'population' => 263746,
+                    'area' => 547,
+                    'density' => 481.8,
+                ),
+            525 =>
+                array(
+                    'id' => 525,
+                    'province_id' => 5,
+                    'district_id' => 113,
+                    'division_id' => 27,
+                    'name' => 'Khairpur Taluka',
+                    'population' => 440752,
+                    'area' => 503,
+                    'density' => 876.4,
+                ),
+            526 =>
+                array(
+                    'id' => 526,
+                    'province_id' => 5,
+                    'district_id' => 113,
+                    'division_id' => 27,
+                    'name' => 'Kingri Taluka',
+                    'population' => 340218,
+                    'area' => 564,
+                    'density' => 603.2,
+                ),
+            527 =>
+                array(
+                    'id' => 527,
+                    'province_id' => 5,
+                    'district_id' => 113,
+                    'division_id' => 27,
+                    'name' => 'Kot Diji Taluka',
+                    'population' => 348899,
+                    'area' => 516,
+                    'density' => 676.2,
+                ),
+            528 =>
+                array(
+                    'id' => 528,
+                    'province_id' => 5,
+                    'district_id' => 113,
+                    'division_id' => 27,
+                    'name' => 'Mirwah Taluka',
+                    'population' => 352491,
+                    'area' => 680,
+                    'density' => 518.8,
+                ),
+            529 =>
+                array(
+                    'id' => 529,
+                    'province_id' => 5,
+                    'district_id' => 113,
+                    'division_id' => 27,
+                    'name' => 'Nara Taluka',
+                    'population' => 160985,
+                    'area' => 11610,
+                    'density' => 13.87,
+                ),
+            530 =>
+                array(
+                    'id' => 530,
+                    'province_id' => 5,
+                    'district_id' => 113,
+                    'division_id' => 27,
+                    'name' => 'Sobho Dero Taluka',
+                    'population' => 274428,
+                    'area' => 507,
+                    'density' => 541.8,
+                ),
+            531 =>
+                array(
+                    'id' => 531,
+                    'province_id' => 5,
+                    'district_id' => 125,
+                    'division_id' => 27,
+                    'name' => 'New Sukkur Taluka',
+                    'population' => 319768,
+                    'area' => 216,
+                    'density' => 1482,
+                ),
+            532 =>
+                array(
+                    'id' => 532,
+                    'province_id' => 5,
+                    'district_id' => 125,
+                    'division_id' => 27,
+                    'name' => 'Pano Aqil Taluka',
+                    'population' => 435823,
+                    'area' => 900,
+                    'density' => 484.2,
+                ),
+            533 =>
+                array(
+                    'id' => 533,
+                    'province_id' => 5,
+                    'district_id' => 125,
+                    'division_id' => 27,
+                    'name' => 'Rohri Taluka',
+                    'population' => 371104,
+                    'area' => 1049,
+                    'density' => 353.8,
+                ),
+            534 =>
+                array(
+                    'id' => 534,
+                    'province_id' => 5,
+                    'district_id' => 125,
+                    'division_id' => 27,
+                    'name' => 'Salehpat Taluka',
+                    'population' => 129619,
+                    'area' => 2955,
+                    'density' => 43.86,
+                ),
+            535 =>
+                array(
+                    'id' => 535,
+                    'province_id' => 5,
+                    'district_id' => 125,
+                    'division_id' => 27,
+                    'name' => 'Sukkur City Taluka',
+                    'population' => 231589,
+                    'area' => 96.4,
+                    'density' => 2402,
                 ),
         ));
 

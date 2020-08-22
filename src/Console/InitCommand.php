@@ -1,6 +1,6 @@
 <?php
 
-namespace Khsing\World\Console;
+namespace Aaqib\GeoPakistan\Console;
 
 use Illuminate\Console\Command;
 
