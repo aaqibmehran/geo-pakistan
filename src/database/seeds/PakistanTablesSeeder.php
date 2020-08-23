@@ -26,8 +26,6 @@ class PakistanTablesSeeder extends Seeder
         $this->call(PakistanDistrictLocaleTableSeeder::class);
         $this->call(PakistanTehsilTableSeeder::class);
         $this->call(PakistanTehsilLocaleTableSeeder::class);
-        $this->call(PakistanCitiesTableSeeder::class);
-        $this->call(PakistanCitiesLocaleTableSeeder::class);
 
         if (DB::connection() instanceof SQLiteConnection) {
             DB::statement('PRAGMA FOREIGN_KEYS=1');

@@ -20,8 +20,8 @@ class CreatePakistanTehsilsTable extends Migration {
             $table->bigInteger('district_id')->unsigned()->comment('District ID');
 			$table->string('name', 50)->default('')->comment('Tehsil Name');
             $table->string('population', 190)->nullable()->comment('Census (2017-03-15)');
-            $table->string('area', 190)->nullable()->comment('Census (2017-03-15)');
-            $table->string('density', 190)->nullable()->comment('Census (2017-03-15)');
+            $table->string('area', 190)->nullable()->comment('Kilometer Square');
+            $table->string('density', 190)->nullable()->comment('Per Kilometer Square');
             $table->index(['district_id','division_id', 'province_id','name'], 'uniq_tehsil');
 		});
 	}
