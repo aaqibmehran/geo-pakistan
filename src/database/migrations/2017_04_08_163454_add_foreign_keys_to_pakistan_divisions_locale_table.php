@@ -29,7 +29,7 @@ AddForeignKeysToPakistanDivisionsLocaleTable extends Migration {
 	{
 		Schema::table('pakistan_divisions_locale', function(Blueprint $table)
 		{
-			$table->dropForeign('pakistan_divisions_locale');
+			$table->dropForeign('pakistan_divisions_locale_ibfk_1');
 		});
 	}
 

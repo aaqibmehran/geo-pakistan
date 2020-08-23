@@ -27,7 +27,7 @@ class PakistanProvinceTableSeeder extends Seeder
                     'latitude' => 28.4188181,
                     'longitude' => 61.0670046,
                     'map_zoom' => 6,
-                    'has_division' => 1,
+
                 ),
             1 =>
                 array(
@@ -41,7 +41,7 @@ class PakistanProvinceTableSeeder extends Seeder
                     'latitude' => 33.6163723,
                     'longitude' => 72.805909,
                     'map_zoom' => 10,
-                    'has_division' => 0,
+
                 ),
             2 =>
                 array(
@@ -55,7 +55,7 @@ class PakistanProvinceTableSeeder extends Seeder
                     'latitude' => 33.9909288,
                     'longitude' => 67.6052986,
                     'map_zoom' => 6,
-                    'has_division' => 1,
+
                 ),
             3 =>
                 array(
@@ -69,7 +69,7 @@ class PakistanProvinceTableSeeder extends Seeder
                     'latitude' => 30.8062917,
                     'longitude' => 67.8582925,
                     'map_zoom' => 6,
-                    'has_division' => 1,
+
                 ),
             4 =>
                 array(
@@ -83,7 +83,7 @@ class PakistanProvinceTableSeeder extends Seeder
                     'latitude' => 26.1456264,
                     'longitude' => 66.6443584,
                     'map_zoom' => 7,
-                    'has_division' => 1,
+
                 ),
 
             5 =>
@@ -98,7 +98,7 @@ class PakistanProvinceTableSeeder extends Seeder
                     'latitude' => 35.7809668,
                     'longitude' => 72.922815,
                     'map_zoom' => 7,
-                    'has_division' => 1,
+
                 ),
 
             6 =>
@@ -113,7 +113,7 @@ class PakistanProvinceTableSeeder extends Seeder
                     'latitude' => 33.9446167,
                     'longitude' => 73.20779,
                     'map_zoom' => 8,
-                    'has_division' => 1,
+
                 )
         ));
 

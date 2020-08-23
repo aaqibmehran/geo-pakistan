@@ -15,7 +15,7 @@ AddForeignKeysToPakistanProvincesLocaleTable extends Migration {
 	{
 		Schema::table('pakistan_provinces_locale', function(Blueprint $table)
 		{
-			$table->foreign('division_id', 'pakistan_provinces_locale_ibfk_1')->references('id')->on('pakistan_provinces')->onUpdate('RESTRICT')->onDelete('CASCADE');
+			$table->foreign('province_id', 'pakistan_provinces_locale_ibfk_1')->references('id')->on('pakistan_provinces')->onUpdate('RESTRICT')->onDelete('CASCADE');
 		});
 	}
 
@@ -29,7 +29,7 @@ AddForeignKeysToPakistanProvincesLocaleTable extends Migration {
 	{
 		Schema::table('pakistan_provinces_locale', function(Blueprint $table)
 		{
-			$table->dropForeign('pakistan_provinces_locale');
+			$table->dropForeign('pakistan_provinces_locale_ibfk_1');
 		});
 	}
 

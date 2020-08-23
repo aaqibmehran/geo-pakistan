@@ -1,6 +1,6 @@
 # Laravel Geo Pakistan Database
 
-This package focused on Provinces/States, Divisions, Districts and Tehsils/Talukas database with population according to 2017 census for Pakistan for Laravel.
+This package focused on Provinces/States, Divisions, Districts and Tehsils/Talukas database with population according to 2017 census of Pakistan for Laravel.
 
 ## Conceptions
 
@@ -121,6 +121,6 @@ $punjab = $rawalpindi->parent();
 
 ## About
 
-This package published under MIT license. If you have any question or suggestion, please feel free to submit a issue, or email me Aaqib Mehran<mehran.aaqib@gmail.com>.
+This package published under MIT license. If you have any question or suggestion, please feel free to submit a issue, or email me Aaqib Mehran <mehran.aaqib@gmail.com>.
 
 Have a nice day.

@@ -5937,6 +5937,5 @@ class PakistanTehsilTableSeeder extends Seeder
                 ),
         ));
 
-
     }
 }

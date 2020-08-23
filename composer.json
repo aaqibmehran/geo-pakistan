@@ -1,6 +1,6 @@
 {
     "name": "aaqib/geo-pakistan",
-    "description": "Provide divisions, districts, Tehsils and cities relations database for Pakistan.",
+    "description": "Provide Provinces, divisions, districts, Tehsils/Talukas and cities relations database for Pakistan.",
     "type": "library",
     "license": "MIT",
     "minimum-stability": "stable",

@@ -18,7 +18,7 @@ class CreatePakistanTehsilsTable extends Migration {
             $table->bigInteger('province_id')->unsigned()->comment('Province ID');
             $table->bigInteger('division_id')->unsigned()->comment('Division ID');
             $table->bigInteger('district_id')->unsigned()->comment('District ID');
-			$table->string('name', 50)->default('')->index('uniq_tehsil')->comment('Tehsil Name');
+			$table->string('name', 50)->default('')->comment('Tehsil Name');
             $table->string('population', 190)->nullable()->comment('Census (2017-03-15)');
             $table->string('area', 190)->nullable()->comment('Census (2017-03-15)');
             $table->string('density', 190)->nullable()->comment('Census (2017-03-15)');
