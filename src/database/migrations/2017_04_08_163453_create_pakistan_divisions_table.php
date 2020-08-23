@@ -3,7 +3,7 @@
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 
-class CreateWorldDivisionsTable extends Migration {
+class CreatePakistanDivisionsTable extends Migration {
 
 	/**
 	 * Run the migrations.

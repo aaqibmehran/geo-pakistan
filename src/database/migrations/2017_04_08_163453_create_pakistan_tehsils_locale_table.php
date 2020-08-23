@@ -3,7 +3,7 @@
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 
-class CreateWorldContinentsLocaleTable extends Migration
+class CreatePakistanTehsilsLocaleTable extends Migration
 {
 
     /**

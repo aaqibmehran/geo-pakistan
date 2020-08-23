@@ -23,7 +23,7 @@ class CreatePakistanProvincesTable extends Migration {
             $table->string('population', 190)->nullable()->comment('Census (2017-03-15)');
 			$table->string('latitude', 50)->nullable()->comment('Latitude');
 			$table->string('longitude', 50)->nullable()->comment('Longitude');
-			$table->integer('map_zoom', 6)->nullable()->default(5)->comment('Longitude');
+            $table->integer('map_zoom')->nullable()->default(5)->comment('Zoom on Map');
 			$table->unique(['name'], 'uniq_province');
 		});
 	}

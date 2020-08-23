@@ -3,7 +3,7 @@
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 
-class CreateWorldCountriesTable extends Migration {
+class CreatePakistanDistrictsTable extends Migration {
 
 	/**
 	 * Run the migrations.
@@ -24,7 +24,7 @@ class CreateWorldCountriesTable extends Migration {
 			$table->string('density', 190)->nullable()->comment('Per Kilometer Square');
 			$table->string('latitude', 190)->nullable()->comment('Latitude');
 			$table->string('longitude', 190)->nullable()->comment('Longitude');
-            $table->integer('map_zoom', 9)->nullable()->default(5)->comment('Longitude');
+            $table->integer('map_zoom')->nullable()->default(5)->comment('Zoom on Map');
 			$table->unique(['province_id', 'division_id','name'], 'uniq_district');
 		});
 	}

@@ -20,7 +20,7 @@ class CreatePakistanProvincesLocaleTable extends Migration
             $table->string('abbr', 16)->nullable()->comment('Localized Province Abbr');
             $table->string('alias', 255)->nullable()->comment('Localized Province Alias');
             $table->string('full_name', 255)->nullable()->comment('Localized Province Fullname');
-            $table->string('locale', 6)->nullable()->comment('locale');
+            $table->string('locale')->nullable()->comment('locale');
             $table->unique(['province_id','locale'], 'uniq_province_id_locale');
         });
     }
