@@ -12,6 +12,7 @@ class PakistanTablesSeeder extends Seeder
      */
     public function run()
     {
+        
         if (DB::connection() instanceof SQLiteConnection) {
             DB::statement('PRAGMA FOREIGN_KEYS=0');
         } else {
@@ -32,5 +33,6 @@ class PakistanTablesSeeder extends Seeder
         } else {
             DB::statement('SET FOREIGN_KEY_CHECKS=1');
         }
+
     }
 }
