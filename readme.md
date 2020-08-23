@@ -107,6 +107,6 @@ $tehsils = $rawalpindi->tehsils()->get();
 
 ## About
 
-This package published under MIT license. If you have any question or suggestion, please feel free to submit a issue, or email me Aaqib Mehran <mehran.aaqib@gmail.com>.
+This package published under MIT license. If you have any question or suggestion, please feel free to submit an issue, or email me Aaqib Mehran <mehran.aaqib@gmail.com>.
 
 Have a nice day.
