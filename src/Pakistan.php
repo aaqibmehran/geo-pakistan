@@ -2,6 +2,7 @@
 
 namespace Aaqib\GeoPakistan;
 
+use Aaqib\GeoPakistan\Models\Province;
 use Aaqib\GeoPakistan\Models\UnionCouncel;
 use Aaqib\GeoPakistan\Models\District;
 use Aaqib\GeoPakistan\Models\Division;
@@ -12,6 +13,11 @@ use Aaqib\GeoPakistan\Models\Tehsil;
  */
 class Pakistan
 {
+    public function Provinces()
+    {
+        return Province::get();
+    }
+
     public static function Divisions()
     {
         return Division::get();
@@ -25,6 +31,11 @@ class Pakistan
     public static function Tehsils()
     {
         return Tehsil::get();
+    }
+
+    public static function getProvinceByAbbr($abbr)
+    {
+        return Province::getByAbbr($abbr);
     }
 
     public static function getDivisionByCode($code)
@@ -58,9 +69,9 @@ class Pakistan
             ])->first();
         }
         return UnionCouncel::where([
-                ['division_id', $division->id],
-                ['code', $code],
-            ]);
+            ['division_id', $division->id],
+            ['code', $code],
+        ]);
 
         throw new Aaqib\GeoPakistan\Exceptions\InvalidCodeException("Code is invalid");
     }

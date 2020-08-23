@@ -1,59 +1,20 @@
 # Laravel Geo Pakistan Database
 
-This package focused on Provinces/States, Divisions, Districts and Tehsils/Talukas database with population according to 2017 census of Pakistan for Laravel.
+This package focused on Provinces/States, Divisions, Districts and Tehsils/Talukas database of Pakistan for Laravel.
+Additionally, population, area and density, is also added according to census of 2017. Latitude and longitude of the region center is also added. 
 
 ## Conceptions
 
 There are 4 main objects in this package.
 
-- Provinces/States: 6 provinces/states.
-- Divisions: 36 divisions
-- Districts: 154 districts
-- Tehsils: 535 tehsils/talukas.
-
-### Attributes
-
-Common attributes:
-
-- `name`: Common name of region(english).
-- `full_name`: Full name or official name(english).
-- `code`: ISO-3166-1-alpha2/ISO-3166-2 code
-- `local_name`: translation of Common name
-- `local_full_name`: translation of full name
-- `local_alias`: alias in different language
-- `local_abbr`: Abbreviation
-
-Country spec attributes:
-
-- `emoji`: Emoji flag of country
-- `capital`: Captial of this country
-- `code_alpha3`: Code of ISO-3166-1-alpha3
-- `currency_code`: ISO-4177 Currency Code, e.g. USD, CNY
-- `currency_name`: ISO-4177 Currency Name,
-- `local_currency_name`: ISO-4177 Currency name in locale
-
-Example:
-
-```php
-use Aaqib\GeoPakistan\Province;
-$china = Province::getByCode('PUN');
-$china->name; // Punjab
-$china->local_name; // 中国
-$china->full_name; // People's Republic of China
-$china->local_full_name; // 中华人民共和国
-$china->emoji; // 🇨🇳
-$china->callingcode; // 86
-$china->code; // CN
-$china->code_alpha3; // CHN
-$china->has_division; // true
-$china->currency_code; // CNY
-$china->currency_name; // Yuan Renminbi
-$china->local_currency_name; // 人民币
-```
+- Provinces/States: 7
+- Divisions: 36
+- Districts: 154
+- Tehsils/talukas: 536
 
 ### Localization
 
-Right now, only English(default and fallback) is supported. Locale settings is following Laravel project settings in `config/app.php`.
+Right now, only English(default and fallback) is supported. We intend to add locale for urdu in the future updates.
 
 ## Setup
 
@@ -104,20 +65,45 @@ Pakistan::Divisions()
 ```php
 use Aaqib\GeoPakistan\Models\Province;
 
-$punjab = Province::getByCode('PUN');
+$punjab = Province::getByAbbr('PUN');
 $divisions = $punjab->divisions()->get();
 // or use children method
 $divisions = $punjab->children();
 ```
 
 - get province or parent
-
 ```php
-$rawalpindi = Division::getByCode('cn');
-$punjab = $rawalpindi->parent();
+    $rawalpindi = Division::getByName('Rawalpindi');
+    $punjab = $rawalpindi->parent();
 ```
 
-- get cities via Country or Division.
+- get parents of tehsil
+
+```php
+// get district by tehsil
+$lahore_city = Tehsil::getByName('Lahore City');
+$Lahore = $lahore_city->district();
+
+// get division by tehsil
+$lahore_city = Tehsil::getByName('Lahore City');
+$lahore = $lahore_city->division();
+
+// get province by tehsil
+$lahore_city = Tehsil::getByName('Lahore City');
+$Punjab = $lahore_city->province();
+```
+
+- get tehsils by province and division
+
+```php
+// get by province
+$punjab = Province::getByAbbr('PUN');
+$tehsils = $punjab->tehsils()->get();
+
+// get by division
+$rawalpindi = Division::getByName('Rawalpindi');
+$tehsils = $rawalpindi->tehsils()->get();
+```
 
 ## About
 

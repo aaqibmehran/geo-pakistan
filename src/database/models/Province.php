@@ -76,6 +76,21 @@ class Province extends Model
     }
 
     /**
+     * Get Division by Abbreviation
+     *
+     * @param string $name
+     * @return collection
+     */
+    public static function getByAbbr($abbr)
+    {
+        $localized = DivisionLocale::where('abbr', $abbr)->first();
+        if (is_null($localized)) {
+            return $localized;
+        }
+        return $localized->region;
+    }
+
+    /**
      * Search Division by name
      *
      * @param string $name

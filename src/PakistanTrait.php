@@ -23,7 +23,6 @@ trait PakistanTrait
 
     protected $supported_locales = [
         'en',
-        'ur',
     ];
 
     public function __construct(array $attributes = [])
